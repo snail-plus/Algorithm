@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+/*社区驿站CSS */
+*{ margin:0px; padding:0px;}
+a{text-decoration:none;}
+input,textarea,select{border:0px; vertical-align:middle;}
+img{ border:0px; vertical-align:middle}
+body{ font-family:"微软雅黑"; font-size:14px;}
+
+/*登陆*/
+.login_bj{background-size:100% 100%; position:absolute;width:100%; left:0px; right:0; top:0; bottom:0;}
+.line_center{ position:absolute; width:100%; top:50%; left:0; margin-top:-210px;}
+.login{ margin:0 auto; width:959px; height:419px; background:url(../images/denglu.png) no-repeat; position:relative}
+.login_a{ height:71px; background:#3fa900; padding-left:48px; line-height:71px; font-family:"微软雅黑"; font-size:40px; color:#FFF;}
+.login_b{ padding:31px 0px 38px 30px; width:487px;}
+.txt input{ /*width:338px;*/ width:100%; height:35px; border:1px solid  #a8c987;font-family:"微软雅黑"; font-size:20px; color:#365425; line-height:35px;}
+.login_b p span{font-family:"微软雅黑"; font-size:20px; color:#365425; width:125px; display: inline-block;}
+.txt_a{margin-left:85px;font-family:"微软雅黑";font-size:16px;color:#365425;margin-bottom:30px;margin-top:15px;}
+.input input{padding:0 15px; height:49px; font-size:20px; color:#fff; font-family:"微软雅黑";}
+.sumbit{cursor:pointer;border-radius:5px;background:#f00;min-width:89px;}
+.clear{ background:url(../images/sumbit_b_06.png) no-repeat;margin-left:75px;cursor: pointer;}
+.login_c{ position:absolute; right:150px; top:160px; }
+
+/*导航*/
+.admin{ width:100%; height:90px; background:#539dde; position:relative;background:url(../images/admin.jpg) repeat-x;}
+.bj{  height:90px; margin:0 auto; background:url(../images/admin-02.jpg) no-repeat 0 0;}
+.logo{ position:absolute;left:254px;top: 28px; width: 364px; height: 46px;background:url(../images/top-font.png) no-repeat;}
+.error{margin-left:50px; text-align:right; font-size:16px; color:#ff0000; font-family:"微软雅黑";}
+.pk_lang {color:red;}
+.pk_lang a{color:red;}
+.change{position: absolute; right: 30px; bottom: 5px; font-size: 12px; line-height: 25px; font-weight: normal;}
+.change a{color: #fff; margin-left: 17px;}
+.change a img{ margin-right: 5px;}
+.group{position: absolute; right: 180px; bottom: 5px; font-size: 12px; line-height: 25px; font-weight: normal;}
+.group a{color: #fff; margin-left: 17px;}
+.group a img{ margin-right: 5px;}
+.aaa{background:url(../images/r-center-img.png) no-repeat 0 0;width: 980px;height: 415px;}
+
+/*new login*/
+.fixed-bj{position:fixed; left:0px; top:0px; right:0px; bottom:0px; background:url(../images/w-logo-bj.jpg) no-repeat 50% 50%; background-size:100% 100%; z-index:-1;}
+.login_muto{ width:980px; margin:0 auto; height:100%;}
+.r-login{position:absolute; width:269px; right:62px; top:27px; padding-top:25px;}
+.w-login-title{ background:url(../images/icon-wel.png) no-repeat 25px 0px; height:36px; line-height:36px; font-size:18px; padding-left:72px;}
+.logo-input{ padding-left:25px; padding-top:23px; font-size:12px;}
+.logo-input p { margin-top:15px;}
+.logo-input font{ display:inline-block; width:50px; text-align:center; vertical-align:middle; height:28px; line-height:28px; margin-right:10px; font-size:12px;}
+.logo-input p input{ height:26px; width:152px; border:1px solid #a6a6a6; text-indent:5px; font-family:"宋体"; font-size:12px;}
+.remember{ margin-top:12px;}
+.remember input{ margin: 0 5px 0 2px;}
+.middle{vertical-align:middle;}
+.error-inf{ padding-left:61px; color:#ff0000; margin-top:13px;}
+.logo-sub{ padding-left:62px; margin-top:24px;}
+.logo-sub input{ background:url(../images/sub_btton.jpg) no-repeat; width:110px; height:34px;}

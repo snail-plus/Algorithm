@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */  
+.cc{width:100%;position:relative; height:33px; line-height:33px;padding-top:4px; text-align:center;}
+#swiper-container {height:33px;width:100%;}
+.swiper-pagination-switch{display:inline-block;width:10px;height:10px;border-radius:10px;background:#999;box-shadow:0px 1px 2px #555 inset;margin:0 3px;cursor: pointer;}
+.swiper-slide a{ font-size:18px; color:#166900;/* box-sizing:border-box; */}
+.swiper-active-switch{background:#fff;} 

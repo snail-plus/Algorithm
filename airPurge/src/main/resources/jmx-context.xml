@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context 
+                           http://www.springframework.org/schema/context/spring-context.xsd">
+ 
+    <!-- 暴露监控设备 --> 
+    <bean id="exporter" class="org.springframework.jmx.export.MBeanExporter" 
+        lazy-init="false">  
+        <property name="beans">  
+            <map>  
+                <entry key="bean:name=AnnotationTestBean" value-ref="AnnotationTestBean" />  
+            </map>  
+        </property>  
+    </bean>  
+   
+    <!-- mbean --> 
+    <bean id="AnnotationTestBean" class="com.whtriples.airPurge.jmx.AnnotationTestBean" />  
+   <!--  <bean class="org.springframework.jmx.support.ConnectorServerFactoryBean" 
+        depends-on="rmiRegistry" lazy-init="false">  
+        <property name="objectName" value="connector:name=rmi" />  
+        远程连接的地址 
+        <property name="serviceUrl" 
+            value="service:jmx:rmi://localhost/jndi/rmi://localhost:8080/myconnector" />  
+    </bean>  
+       
+    使用JNDI-RMI的方式进行远程连接通讯,并且配置占用端口号 
+    <bean id="rmiRegistry" class="org.springframework.remoting.rmi.RmiRegistryFactoryBean">  
+        <property name="port" value="8080" />  
+    </bean> -->
+    
+</beans>

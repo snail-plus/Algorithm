@@ -1,0 +1,1086 @@
+17:51:48 [main] WARN  o.e.jetty.security.SecurityHandler - ServletContext@o.e.j.w.WebAppContext@71658ade{/airPurge,file:/G:/work/airPurge/src/main/webapp/,STARTING}{src/main/webapp} has uncovered http methods for path: /
+17:51:49 [main] WARN  c.w.airPurge.mobile.push.PushService - start scoket service finished
+17:51:49 [main] WARN  c.w.airPurge.redis.JedisTemplate - 初始化redis----
+17:51:50 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据--------
+17:51:51 [main] WARN  c.w.airPurge.mobile.weather.Weather - result: {"HeWeather data service 3.0":[{"aqi":{"city":{"aqi":"120","co":"1","no2":"27","o3":"237","pm10":"117","pm25":"73","qlty":"轻度污染","so2":"17"}},"basic":{"city":"武汉","cnty":"中国","id":"CN101200101","lat":"30.573000","lon":"114.279000","update":{"loc":"2015-08-29 16:43","utc":"2015-08-29 08:46"}},"daily_forecast":[{"astro":{"sr":"05:57","ss":"18:50"},"cond":{"code_d":"100","code_n":"100","txt_d":"晴","txt_n":"晴"},"date":"2015-08-29","hum":"41","pcpn":"0.5","pop":"44","pres":"1007","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"38","dir":"无持续风向","sc":"微风","spd":"7"}},{"astro":{"sr":"05:58","ss":"18:49"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-30","hum":"40","pcpn":"0.0","pop":"36","pres":"1007","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"74","dir":"无持续风向","sc":"微风","spd":"7"}},{"astro":{"sr":"05:58","ss":"18:48"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-31","hum":"40","pcpn":"0.0","pop":"0","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"75","dir":"无持续风向","sc":"微风","spd":"7"}},{"astro":{"sr":"05:59","ss":"18:46"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-01","hum":"41","pcpn":"0.0","pop":"0","pres":"1008","tmp":{"max":"33","min":"24"},"vis":"10","wind":{"deg":"86","dir":"无持续风向","sc":"微风","spd":"7"}},{"astro":{"sr":"05:59","ss":"18:45"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-02","hum":"40","pcpn":"0.0","pop":"0","pres":"1010","tmp":{"max":"33","min":"24"},"vis":"10","wind":{"deg":"110","dir":"无持续风向","sc":"微风","spd":"7"}},{"astro":{"sr":"06:00","ss":"18:44"},"cond":{"code_d":"305","code_n":"305","txt_d":"小雨","txt_n":"小雨"},"date":"2015-09-03","hum":"41","pcpn":"0.0","pop":"1","pres":"1010","tmp":{"max":"33","min":"23"},"vis":"10","wind":{"deg":"111","dir":"无持续风向","sc":"微风","spd":"7"}},{"astro":{"sr":"06:00","ss":"18:43"},"cond":{"code_d":"305","code_n":"305","txt_d":"小雨","txt_n":"小雨"},"date":"2015-09-04","hum":"54","pcpn":"24.7","pop":"49","pres":"1006","tmp":{"max":"31","min":"23"},"vis":"7","wind":{"deg":"191","dir":"无持续风向","sc":"微风","spd":"7"}}],"hourly_forecast":[{"date":"2015-08-29 16:00","hum":"41","pop":"0","pres":"1006","tmp":"36","wind":{"deg":"80","dir":"东风","sc":"微风","spd":"4"}},{"date":"2015-08-29 19:00","hum":"49","pop":"0","pres":"1006","tmp":"35","wind":{"deg":"143","dir":"东南风","sc":"微风","spd":"7"}},{"date":"2015-08-29 22:00","hum":"57","pop":"0","pres":"1007","tmp":"32","wind":{"deg":"139","dir":"东南风","sc":"微风","spd":"8"}}],"now":{"cond":{"code":"100","txt":"晴"},"fl":"37","hum":"39","pcpn":"0","pres":"1006","tmp":"33","vis":"6","wind":{"deg":"290","dir":"北风","sc":"3-4","spd":"7"}},"status":"ok","suggestion":{"comf":{"brf":"较不舒适","txt":"白天天气晴好，明媚的阳光在给您带来好心情的同时，也会使您感到有些热，不很舒适。"},"cw":{"brf":"较适宜","txt":"较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持一天。"},"drsg":{"brf":"炎热","txt":"天气炎热，建议着短衫、短裙、短裤、薄型T恤衫等清凉夏季服装。"},"flu":{"brf":"少发","txt":"各项气象条件适宜，发生感冒机率较低。但请避免长期处于空调房间中，以防感冒。"},"sport":{"brf":"较适宜","txt":"天气较好，户外运动请注意防晒。推荐您进行室内运动。"},"trav":{"brf":"适宜","txt":"天气较好，但稍感觉有些热，不过还是个好天气哦。适宜旅游，可不要错过机会呦！"},"uv":{"brf":"很强","txt":"紫外线辐射极强，建议涂擦SPF20以上、PA++的防晒护肤品，尽量避免暴露于日光下。"}}}]}
+17:51:51 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据结束----------
+18:00:00 [SockJS-1] WARN  c.w.airPurge.mobile.task.WeatherTask - --------执行定时任务----------
+18:00:01 [SockJS-1] WARN  c.w.airPurge.mobile.weather.Weather - result: {"HeWeather data service 3.0":[{"aqi":{"city":{"aqi":"116","co":"1","no2":"28","o3":"230","pm10":"112","pm25":"63","qlty":"轻度污染","so2":"16"}},"basic":{"city":"武汉","cnty":"中国","id":"CN101200101","lat":"30.573000","lon":"114.279000","update":{"loc":"2015-08-29 17:43","utc":"2015-08-29 09:46"}},"daily_forecast":[{"astro":{"sr":"05:57","ss":"18:50"},"cond":{"code_d":"103","code_n":"100","txt_d":"晴间多云","txt_n":"晴"},"date":"2015-08-29","hum":"41","pcpn":"0.5","pop":"44","pres":"1007","tmp":{"max":"36","min":"22"},"vis":"10","wind":{"deg":"38","dir":"无持续风向","sc":"微风","spd":"7"}},{"astro":{"sr":"05:58","ss":"18:49"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-30","hum":"40","pcpn":"0.0","pop":"36","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"74","dir":"无持续风向","sc":"微风","spd":"7"}},{"astro":{"sr":"05:58","ss":"18:48"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-31","hum":"40","pcpn":"0.0","pop":"0","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"75","dir":"无持续风向","sc":"微风","spd":"7"}},{"astro":{"sr":"05:59","ss":"18:46"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-01","hum":"41","pcpn":"0.0","pop":"0","pres":"1008","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"86","dir":"无持续风向","sc":"微风","spd":"7"}},{"astro":{"sr":"05:59","ss":"18:45"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-02","hum":"40","pcpn":"0.0","pop":"0","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"110","dir":"无持续风向","sc":"微风","spd":"7"}},{"astro":{"sr":"06:00","ss":"18:44"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-03","hum":"41","pcpn":"0.0","pop":"1","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"111","dir":"无持续风向","sc":"微风","spd":"7"}},{"astro":{"sr":"06:00","ss":"18:43"},"cond":{"code_d":"305","code_n":"306","txt_d":"小雨","txt_n":"中雨"},"date":"2015-09-04","hum":"54","pcpn":"24.7","pop":"49","pres":"1006","tmp":{"max":"29","min":"23"},"vis":"7","wind":{"deg":"191","dir":"无持续风向","sc":"微风","spd":"7"}}],"hourly_forecast":[{"date":"2015-08-29 19:00","hum":"49","pop":"0","pres":"1006","tmp":"35","wind":{"deg":"143","dir":"东南风","sc":"微风","spd":"7"}},{"date":"2015-08-29 22:00","hum":"57","pop":"0","pres":"1007","tmp":"32","wind":{"deg":"139","dir":"东南风","sc":"微风","spd":"8"}}],"now":{"cond":{"code":"100","txt":"晴"},"fl":"37","hum":"47","pcpn":"0","pres":"1005","tmp":"31","vis":"7","wind":{"deg":"280","dir":"西北风","sc":"3-4","spd":"7"}},"status":"ok","suggestion":{"comf":{"brf":"较不舒适","txt":"白天天气多云，同时会感到有些热，不很舒适。"},"cw":{"brf":"较适宜","txt":"较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持一天。"},"drsg":{"brf":"炎热","txt":"天气炎热，建议着短衫、短裙、短裤、薄型T恤衫等清凉夏季服装。"},"flu":{"brf":"少发","txt":"各项气象条件适宜，发生感冒机率较低。但请避免长期处于空调房间中，以防感冒。"},"sport":{"brf":"较适宜","txt":"天气较好，较适宜进行各种运动，但因天气热，请适当减少运动时间，降低运动强度。"},"trav":{"brf":"较适宜","txt":"天气较好，温度较高，天气较热，但有微风相伴，还是比较适宜旅游的，不过外出时要注意防暑防晒哦！"},"uv":{"brf":"中等","txt":"属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。"}}}]}
+19:07:45 [main] WARN  o.e.jetty.security.SecurityHandler - ServletContext@o.e.j.w.WebAppContext@3bc8c52e{/airPurge,file:/G:/work/airPurge/src/main/webapp/,STARTING}{src/main/webapp} has uncovered http methods for path: /
+19:07:46 [main] WARN  c.w.airPurge.mobile.push.PushService - start scoket service finished
+19:07:46 [main] WARN  c.w.airPurge.redis.JedisTemplate - 初始化redis----
+19:07:46 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据--------
+19:07:49 [main] WARN  c.w.airPurge.mobile.weather.Weather - result: {"HeWeather data service 3.0":[{"aqi":{"city":{"aqi":"116","co":"1","no2":"29","o3":"227","pm10":"112","pm25":"62","qlty":"轻度污染","so2":"15"}},"basic":{"city":"武汉","cnty":"中国","id":"CN101200101","lat":"30.573000","lon":"114.279000","update":{"loc":"2015-08-29 18:44","utc":"2015-08-29 10:46"}},"daily_forecast":[{"astro":{"sr":"05:57","ss":"18:50"},"cond":{"code_d":"103","code_n":"100","txt_d":"晴间多云","txt_n":"晴"},"date":"2015-08-29","hum":"41","pcpn":"0.5","pop":"44","pres":"1007","tmp":{"max":"36","min":"22"},"vis":"10","wind":{"deg":"38","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:49"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-30","hum":"40","pcpn":"0.0","pop":"36","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"74","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:48"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-31","hum":"40","pcpn":"0.0","pop":"0","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"75","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:46"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-01","hum":"41","pcpn":"0.0","pop":"0","pres":"1008","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"86","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:45"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-02","hum":"40","pcpn":"0.0","pop":"0","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"110","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:44"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-03","hum":"41","pcpn":"0.0","pop":"1","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"111","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:43"},"cond":{"code_d":"305","code_n":"306","txt_d":"小雨","txt_n":"中雨"},"date":"2015-09-04","hum":"54","pcpn":"24.7","pop":"49","pres":"1006","tmp":{"max":"29","min":"23"},"vis":"7","wind":{"deg":"191","dir":"无持续风向","sc":"微风","spd":"0"}}],"hourly_forecast":[{"date":"2015-08-29 19:00","hum":"49","pop":"0","pres":"1006","tmp":"35","wind":{"deg":"143","dir":"东南风","sc":"微风","spd":"7"}},{"date":"2015-08-29 22:00","hum":"57","pop":"0","pres":"1007","tmp":"32","wind":{"deg":"139","dir":"东南风","sc":"微风","spd":"8"}}],"now":{"cond":{"code":"100","txt":"晴"},"fl":"36","hum":"69","pcpn":"0","pres":"1005","tmp":"28","vis":"6","wind":{"deg":"102","dir":"西风","sc":"3-4","spd":"0"}},"status":"ok","suggestion":{"comf":{"brf":"较不舒适","txt":"白天天气多云，同时会感到有些热，不很舒适。"},"cw":{"brf":"较适宜","txt":"较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持一天。"},"drsg":{"brf":"炎热","txt":"天气炎热，建议着短衫、短裙、短裤、薄型T恤衫等清凉夏季服装。"},"flu":{"brf":"少发","txt":"各项气象条件适宜，发生感冒机率较低。但请避免长期处于空调房间中，以防感冒。"},"sport":{"brf":"较适宜","txt":"天气较好，较适宜进行各种运动，但因天气热，请适当减少运动时间，降低运动强度。"},"trav":{"brf":"较适宜","txt":"天气较好，温度较高，天气较热，但有微风相伴，还是比较适宜旅游的，不过外出时要注意防暑防晒哦！"},"uv":{"brf":"中等","txt":"属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。"}}}]}
+19:07:49 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据结束----------
+19:17:41 [main] WARN  o.e.jetty.security.SecurityHandler - ServletContext@o.e.j.w.WebAppContext@3bc8c52e{/airPurge,file:/G:/work/airPurge/src/main/webapp/,STARTING}{src/main/webapp} has uncovered http methods for path: /
+19:17:42 [main] WARN  c.w.airPurge.mobile.push.PushService - start scoket service finished
+19:17:43 [main] WARN  c.w.airPurge.redis.JedisTemplate - 初始化redis----
+19:17:43 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据--------
+19:17:44 [main] WARN  c.w.airPurge.mobile.weather.Weather - result: {"HeWeather data service 3.0":[{"aqi":{"city":{"aqi":"116","co":"1","no2":"29","o3":"227","pm10":"112","pm25":"62","qlty":"轻度污染","so2":"15"}},"basic":{"city":"武汉","cnty":"中国","id":"CN101200101","lat":"30.573000","lon":"114.279000","update":{"loc":"2015-08-29 18:44","utc":"2015-08-29 10:46"}},"daily_forecast":[{"astro":{"sr":"05:57","ss":"18:50"},"cond":{"code_d":"103","code_n":"100","txt_d":"晴间多云","txt_n":"晴"},"date":"2015-08-29","hum":"41","pcpn":"0.5","pop":"44","pres":"1007","tmp":{"max":"36","min":"22"},"vis":"10","wind":{"deg":"38","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:49"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-30","hum":"40","pcpn":"0.0","pop":"36","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"74","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:48"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-31","hum":"40","pcpn":"0.0","pop":"0","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"75","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:46"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-01","hum":"41","pcpn":"0.0","pop":"0","pres":"1008","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"86","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:45"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-02","hum":"40","pcpn":"0.0","pop":"0","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"110","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:44"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-03","hum":"41","pcpn":"0.0","pop":"1","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"111","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:43"},"cond":{"code_d":"305","code_n":"306","txt_d":"小雨","txt_n":"中雨"},"date":"2015-09-04","hum":"54","pcpn":"24.7","pop":"49","pres":"1006","tmp":{"max":"29","min":"23"},"vis":"7","wind":{"deg":"191","dir":"无持续风向","sc":"微风","spd":"0"}}],"hourly_forecast":[{"date":"2015-08-29 19:00","hum":"49","pop":"0","pres":"1006","tmp":"35","wind":{"deg":"143","dir":"东南风","sc":"微风","spd":"7"}},{"date":"2015-08-29 22:00","hum":"57","pop":"0","pres":"1007","tmp":"32","wind":{"deg":"139","dir":"东南风","sc":"微风","spd":"8"}}],"now":{"cond":{"code":"100","txt":"晴"},"fl":"36","hum":"69","pcpn":"0","pres":"1005","tmp":"28","vis":"6","wind":{"deg":"102","dir":"西风","sc":"3-4","spd":"0"}},"status":"ok","suggestion":{"comf":{"brf":"较不舒适","txt":"白天天气多云，同时会感到有些热，不很舒适。"},"cw":{"brf":"较适宜","txt":"较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持一天。"},"drsg":{"brf":"炎热","txt":"天气炎热，建议着短衫、短裙、短裤、薄型T恤衫等清凉夏季服装。"},"flu":{"brf":"少发","txt":"各项气象条件适宜，发生感冒机率较低。但请避免长期处于空调房间中，以防感冒。"},"sport":{"brf":"较适宜","txt":"天气较好，较适宜进行各种运动，但因天气热，请适当减少运动时间，降低运动强度。"},"trav":{"brf":"较适宜","txt":"天气较好，温度较高，天气较热，但有微风相伴，还是比较适宜旅游的，不过外出时要注意防暑防晒哦！"},"uv":{"brf":"中等","txt":"属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。"}}}]}
+19:17:45 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据结束----------
+19:18:24 [main] WARN  o.e.jetty.security.SecurityHandler - ServletContext@o.e.j.w.WebAppContext@24be0018{/airPurge,file:/G:/work/airPurge/src/main/webapp/,STARTING}{src/main/webapp} has uncovered http methods for path: /
+19:18:25 [main] WARN  c.w.airPurge.mobile.push.PushService - start scoket service finished
+19:18:25 [main] WARN  c.w.airPurge.redis.JedisTemplate - 初始化redis----
+19:18:25 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据--------
+19:18:27 [main] WARN  c.w.airPurge.mobile.weather.Weather - result: {"HeWeather data service 3.0":[{"aqi":{"city":{"aqi":"116","co":"1","no2":"29","o3":"227","pm10":"112","pm25":"62","qlty":"轻度污染","so2":"15"}},"basic":{"city":"武汉","cnty":"中国","id":"CN101200101","lat":"30.573000","lon":"114.279000","update":{"loc":"2015-08-29 18:44","utc":"2015-08-29 10:46"}},"daily_forecast":[{"astro":{"sr":"05:57","ss":"18:50"},"cond":{"code_d":"103","code_n":"100","txt_d":"晴间多云","txt_n":"晴"},"date":"2015-08-29","hum":"41","pcpn":"0.5","pop":"44","pres":"1007","tmp":{"max":"36","min":"22"},"vis":"10","wind":{"deg":"38","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:49"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-30","hum":"40","pcpn":"0.0","pop":"36","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"74","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:48"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-31","hum":"40","pcpn":"0.0","pop":"0","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"75","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:46"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-01","hum":"41","pcpn":"0.0","pop":"0","pres":"1008","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"86","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:45"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-02","hum":"40","pcpn":"0.0","pop":"0","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"110","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:44"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-03","hum":"41","pcpn":"0.0","pop":"1","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"111","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:43"},"cond":{"code_d":"305","code_n":"306","txt_d":"小雨","txt_n":"中雨"},"date":"2015-09-04","hum":"54","pcpn":"24.7","pop":"49","pres":"1006","tmp":{"max":"29","min":"23"},"vis":"7","wind":{"deg":"191","dir":"无持续风向","sc":"微风","spd":"0"}}],"hourly_forecast":[{"date":"2015-08-29 19:00","hum":"49","pop":"0","pres":"1006","tmp":"35","wind":{"deg":"143","dir":"东南风","sc":"微风","spd":"7"}},{"date":"2015-08-29 22:00","hum":"57","pop":"0","pres":"1007","tmp":"32","wind":{"deg":"139","dir":"东南风","sc":"微风","spd":"8"}}],"now":{"cond":{"code":"100","txt":"晴"},"fl":"36","hum":"69","pcpn":"0","pres":"1005","tmp":"28","vis":"6","wind":{"deg":"102","dir":"西风","sc":"3-4","spd":"0"}},"status":"ok","suggestion":{"comf":{"brf":"较不舒适","txt":"白天天气多云，同时会感到有些热，不很舒适。"},"cw":{"brf":"较适宜","txt":"较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持一天。"},"drsg":{"brf":"炎热","txt":"天气炎热，建议着短衫、短裙、短裤、薄型T恤衫等清凉夏季服装。"},"flu":{"brf":"少发","txt":"各项气象条件适宜，发生感冒机率较低。但请避免长期处于空调房间中，以防感冒。"},"sport":{"brf":"较适宜","txt":"天气较好，较适宜进行各种运动，但因天气热，请适当减少运动时间，降低运动强度。"},"trav":{"brf":"较适宜","txt":"天气较好，温度较高，天气较热，但有微风相伴，还是比较适宜旅游的，不过外出时要注意防暑防晒哦！"},"uv":{"brf":"中等","txt":"属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。"}}}]}
+19:18:27 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据结束----------
+19:20:21 [main] WARN  c.w.airPurge.mobile.push.PushService - stop scoket service finished
+19:20:21 [main] WARN  o.e.jetty.security.SecurityHandler - ServletContext@o.e.j.w.WebAppContext@24be0018{/airPurge,file:/G:/work/airPurge/src/main/webapp/,STARTING}{src/main/webapp} has uncovered http methods for path: /
+19:20:21 [main] WARN  c.w.airPurge.mobile.push.PushService - start scoket service finished
+19:20:21 [main] WARN  c.w.airPurge.redis.JedisTemplate - 初始化redis----
+19:20:21 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据--------
+19:20:22 [main] WARN  c.w.airPurge.mobile.weather.Weather - result: {"HeWeather data service 3.0":[{"aqi":{"city":{"aqi":"116","co":"1","no2":"29","o3":"227","pm10":"112","pm25":"62","qlty":"轻度污染","so2":"15"}},"basic":{"city":"武汉","cnty":"中国","id":"CN101200101","lat":"30.573000","lon":"114.279000","update":{"loc":"2015-08-29 18:44","utc":"2015-08-29 10:46"}},"daily_forecast":[{"astro":{"sr":"05:57","ss":"18:50"},"cond":{"code_d":"103","code_n":"100","txt_d":"晴间多云","txt_n":"晴"},"date":"2015-08-29","hum":"41","pcpn":"0.5","pop":"44","pres":"1007","tmp":{"max":"36","min":"22"},"vis":"10","wind":{"deg":"38","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:49"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-30","hum":"40","pcpn":"0.0","pop":"36","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"74","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:48"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-31","hum":"40","pcpn":"0.0","pop":"0","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"75","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:46"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-01","hum":"41","pcpn":"0.0","pop":"0","pres":"1008","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"86","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:45"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-02","hum":"40","pcpn":"0.0","pop":"0","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"110","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:44"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-03","hum":"41","pcpn":"0.0","pop":"1","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"111","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:43"},"cond":{"code_d":"305","code_n":"306","txt_d":"小雨","txt_n":"中雨"},"date":"2015-09-04","hum":"54","pcpn":"24.7","pop":"49","pres":"1006","tmp":{"max":"29","min":"23"},"vis":"7","wind":{"deg":"191","dir":"无持续风向","sc":"微风","spd":"0"}}],"hourly_forecast":[{"date":"2015-08-29 19:00","hum":"49","pop":"0","pres":"1006","tmp":"35","wind":{"deg":"143","dir":"东南风","sc":"微风","spd":"7"}},{"date":"2015-08-29 22:00","hum":"57","pop":"0","pres":"1007","tmp":"32","wind":{"deg":"139","dir":"东南风","sc":"微风","spd":"8"}}],"now":{"cond":{"code":"100","txt":"晴"},"fl":"36","hum":"69","pcpn":"0","pres":"1005","tmp":"28","vis":"6","wind":{"deg":"102","dir":"西风","sc":"3-4","spd":"0"}},"status":"ok","suggestion":{"comf":{"brf":"较不舒适","txt":"白天天气多云，同时会感到有些热，不很舒适。"},"cw":{"brf":"较适宜","txt":"较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持一天。"},"drsg":{"brf":"炎热","txt":"天气炎热，建议着短衫、短裙、短裤、薄型T恤衫等清凉夏季服装。"},"flu":{"brf":"少发","txt":"各项气象条件适宜，发生感冒机率较低。但请避免长期处于空调房间中，以防感冒。"},"sport":{"brf":"较适宜","txt":"天气较好，较适宜进行各种运动，但因天气热，请适当减少运动时间，降低运动强度。"},"trav":{"brf":"较适宜","txt":"天气较好，温度较高，天气较热，但有微风相伴，还是比较适宜旅游的，不过外出时要注意防暑防晒哦！"},"uv":{"brf":"中等","txt":"属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。"}}}]}
+19:20:22 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据结束----------
+19:20:55 [main] WARN  o.e.jetty.security.SecurityHandler - ServletContext@o.e.j.w.WebAppContext@35f83a80{/airPurge,file:/G:/work/airPurge/src/main/webapp/,STARTING}{src/main/webapp} has uncovered http methods for path: /
+19:20:56 [main] WARN  c.w.airPurge.mobile.push.PushService - start scoket service finished
+19:20:56 [main] WARN  c.w.airPurge.redis.JedisTemplate - 初始化redis----
+19:20:56 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据--------
+19:21:03 [main] WARN  c.w.airPurge.mobile.task.WeatherTask - get Data fail
+19:21:03 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据结束----------
+20:00:00 [SockJS-1] WARN  c.w.airPurge.mobile.task.WeatherTask - --------执行定时任务----------
+20:00:00 [SockJS-1] WARN  c.w.airPurge.mobile.weather.Weather - result: {"HeWeather data service 3.0":[{"aqi":{"city":{"aqi":"132","co":"1","no2":"42","o3":"195","pm10":"136","pm25":"65","qlty":"轻度污染","so2":"14"}},"basic":{"city":"武汉","cnty":"中国","id":"CN101200101","lat":"30.573000","lon":"114.279000","update":{"loc":"2015-08-29 19:45","utc":"2015-08-29 11:46"}},"daily_forecast":[{"astro":{"sr":"05:57","ss":"18:50"},"cond":{"code_d":"103","code_n":"100","txt_d":"晴间多云","txt_n":"晴"},"date":"2015-08-29","hum":"41","pcpn":"0.5","pop":"44","pres":"1007","tmp":{"max":"36","min":"22"},"vis":"10","wind":{"deg":"38","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:49"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-30","hum":"40","pcpn":"0.0","pop":"36","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"74","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:48"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-31","hum":"40","pcpn":"0.0","pop":"0","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"75","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:46"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-01","hum":"41","pcpn":"0.0","pop":"0","pres":"1008","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"86","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:45"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-02","hum":"40","pcpn":"0.0","pop":"0","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"110","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:44"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-03","hum":"41","pcpn":"0.0","pop":"1","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"111","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:43"},"cond":{"code_d":"305","code_n":"306","txt_d":"小雨","txt_n":"中雨"},"date":"2015-09-04","hum":"54","pcpn":"24.7","pop":"49","pres":"1006","tmp":{"max":"29","min":"23"},"vis":"7","wind":{"deg":"191","dir":"无持续风向","sc":"微风","spd":"0"}}],"hourly_forecast":[{"date":"2015-08-29 19:00","hum":"49","pop":"0","pres":"1006","tmp":"35","wind":{"deg":"143","dir":"东南风","sc":"微风","spd":"7"}},{"date":"2015-08-29 22:00","hum":"57","pop":"0","pres":"1007","tmp":"32","wind":{"deg":"139","dir":"东南风","sc":"微风","spd":"8"}}],"now":{"cond":{"code":"100","txt":"晴"},"fl":"31","hum":"89","pcpn":"0","pres":"1006","tmp":"25","vis":"6","wind":{"deg":"0","dir":"南风","sc":"3-4","spd":"0"}},"status":"ok","suggestion":{"comf":{"brf":"较不舒适","txt":"白天天气多云，同时会感到有些热，不很舒适。"},"cw":{"brf":"较适宜","txt":"较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持一天。"},"drsg":{"brf":"炎热","txt":"天气炎热，建议着短衫、短裙、短裤、薄型T恤衫等清凉夏季服装。"},"flu":{"brf":"少发","txt":"各项气象条件适宜，发生感冒机率较低。但请避免长期处于空调房间中，以防感冒。"},"sport":{"brf":"较适宜","txt":"天气较好，较适宜进行各种运动，但因天气热，请适当减少运动时间，降低运动强度。"},"trav":{"brf":"较适宜","txt":"天气较好，温度较高，天气较热，但有微风相伴，还是比较适宜旅游的，不过外出时要注意防暑防晒哦！"},"uv":{"brf":"中等","txt":"属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。"}}}]}
+20:22:51 [qtp2051927438-95] WARN  c.w.airPurge.cache.TokenCache - 从数据库获取用户信息
+20:22:51 [qtp2051927438-95] WARN  c.w.airPurge.cache.TokenCache - 缓存user:{login_id=admin, token=0d05f4837cb046b5b95c49ce68bea679, user_status=0}
+20:22:51 [qtp2051927438-95] WARN  org.dozer.config.GlobalSettings - Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+20:39:36 [main] WARN  o.e.jetty.security.SecurityHandler - ServletContext@o.e.j.w.WebAppContext@24be0018{/airPurge,file:/G:/work/airPurge/src/main/webapp/,STARTING}{src/main/webapp} has uncovered http methods for path: /
+20:39:37 [main] WARN  c.w.airPurge.mobile.push.PushService - start scoket service finished
+20:39:38 [main] WARN  c.w.airPurge.redis.JedisTemplate - 初始化redis----
+20:39:38 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据--------
+20:39:40 [main] WARN  c.w.airPurge.mobile.weather.Weather - result: {"HeWeather data service 3.0":[{"aqi":{"city":{"aqi":"132","co":"1","no2":"42","o3":"195","pm10":"136","pm25":"65","qlty":"轻度污染","so2":"14"}},"basic":{"city":"武汉","cnty":"中国","id":"CN101200101","lat":"30.573000","lon":"114.279000","update":{"loc":"2015-08-29 19:45","utc":"2015-08-29 11:46"}},"daily_forecast":[{"astro":{"sr":"05:57","ss":"18:50"},"cond":{"code_d":"103","code_n":"100","txt_d":"晴间多云","txt_n":"晴"},"date":"2015-08-29","hum":"41","pcpn":"0.5","pop":"44","pres":"1007","tmp":{"max":"36","min":"22"},"vis":"10","wind":{"deg":"38","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:49"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-30","hum":"40","pcpn":"0.0","pop":"36","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"74","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:48"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-31","hum":"40","pcpn":"0.0","pop":"0","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"75","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:46"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-01","hum":"41","pcpn":"0.0","pop":"0","pres":"1008","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"86","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:45"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-02","hum":"40","pcpn":"0.0","pop":"0","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"110","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:44"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-03","hum":"41","pcpn":"0.0","pop":"1","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"111","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:43"},"cond":{"code_d":"305","code_n":"306","txt_d":"小雨","txt_n":"中雨"},"date":"2015-09-04","hum":"54","pcpn":"24.7","pop":"49","pres":"1006","tmp":{"max":"29","min":"23"},"vis":"7","wind":{"deg":"191","dir":"无持续风向","sc":"微风","spd":"0"}}],"hourly_forecast":[{"date":"2015-08-29 19:00","hum":"49","pop":"0","pres":"1006","tmp":"35","wind":{"deg":"143","dir":"东南风","sc":"微风","spd":"7"}},{"date":"2015-08-29 22:00","hum":"57","pop":"0","pres":"1007","tmp":"32","wind":{"deg":"139","dir":"东南风","sc":"微风","spd":"8"}}],"now":{"cond":{"code":"100","txt":"晴"},"fl":"31","hum":"89","pcpn":"0","pres":"1006","tmp":"25","vis":"6","wind":{"deg":"0","dir":"南风","sc":"3-4","spd":"0"}},"status":"ok","suggestion":{"comf":{"brf":"较不舒适","txt":"白天天气多云，同时会感到有些热，不很舒适。"},"cw":{"brf":"较适宜","txt":"较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持一天。"},"drsg":{"brf":"炎热","txt":"天气炎热，建议着短衫、短裙、短裤、薄型T恤衫等清凉夏季服装。"},"flu":{"brf":"少发","txt":"各项气象条件适宜，发生感冒机率较低。但请避免长期处于空调房间中，以防感冒。"},"sport":{"brf":"较适宜","txt":"天气较好，较适宜进行各种运动，但因天气热，请适当减少运动时间，降低运动强度。"},"trav":{"brf":"较适宜","txt":"天气较好，温度较高，天气较热，但有微风相伴，还是比较适宜旅游的，不过外出时要注意防暑防晒哦！"},"uv":{"brf":"中等","txt":"属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。"}}}]}
+20:39:40 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据结束----------
+21:00:00 [SockJS-1] WARN  c.w.airPurge.mobile.task.WeatherTask - --------执行定时任务----------
+21:00:05 [SockJS-1] WARN  c.w.airPurge.mobile.task.WeatherTask - get Data fail
+21:08:39 [qtp1325513167-69] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:10:29 [qtp1325513167-76] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:11:33 [qtp1325513167-76] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:13:00 [qtp1325513167-80] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:13:02 [qtp1325513167-80] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:13:04 [qtp1325513167-76] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:13:04 [qtp1325513167-76] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:15:12 [qtp1325513167-81] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:16:59 [qtp1325513167-81] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:18:13 [qtp1325513167-84] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:19:09 [qtp1325513167-84] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:20:09 [qtp1325513167-79] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:21:07 [qtp1325513167-87] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:21:07 [qtp1325513167-87] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:21:40 [qtp1325513167-89] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:23:52 [qtp1325513167-89] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:23:52 [qtp1325513167-89] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:25:03 [qtp1325513167-90] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:25:03 [qtp1325513167-90] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:25:04 [qtp1325513167-84] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:25:04 [qtp1325513167-84] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:25:07 [qtp1325513167-89] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:25:07 [qtp1325513167-89] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:25:08 [qtp1325513167-89] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:25:08 [qtp1325513167-89] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:25:09 [qtp1325513167-90] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:25:09 [qtp1325513167-90] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:25:10 [qtp1325513167-84] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:25:10 [qtp1325513167-84] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:25:12 [qtp1325513167-89] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:25:12 [qtp1325513167-89] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:26:49 [qtp1325513167-84] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:26:49 [qtp1325513167-84] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:26:51 [qtp1325513167-84] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:26:51 [qtp1325513167-84] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:26:52 [qtp1325513167-90] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:26:52 [qtp1325513167-90] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:26:55 [qtp1325513167-91] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:26:55 [qtp1325513167-91] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:26:57 [qtp1325513167-84] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:26:57 [qtp1325513167-84] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:26:58 [qtp1325513167-90] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:26:58 [qtp1325513167-90] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:26:59 [qtp1325513167-91] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:26:59 [qtp1325513167-91] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:27:01 [qtp1325513167-84] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:27:01 [qtp1325513167-84] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:27:02 [qtp1325513167-84] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:27:02 [qtp1325513167-84] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:27:04 [qtp1325513167-90] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:27:04 [qtp1325513167-90] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:27:06 [qtp1325513167-91] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:27:06 [qtp1325513167-91] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:27:07 [qtp1325513167-91] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:27:07 [qtp1325513167-91] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:27:09 [qtp1325513167-84] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:27:09 [qtp1325513167-84] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:27:10 [qtp1325513167-90] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:27:10 [qtp1325513167-90] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:27:12 [qtp1325513167-90] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:27:12 [qtp1325513167-90] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:28:26 [qtp1325513167-91] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:28:26 [qtp1325513167-91] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:28:27 [qtp1325513167-91] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:28:27 [qtp1325513167-91] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:28:28 [qtp1325513167-84] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:28:28 [qtp1325513167-84] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:28:30 [qtp1325513167-90] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:28:30 [qtp1325513167-90] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:28:31 [qtp1325513167-91] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:28:31 [qtp1325513167-91] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:29:25 [qtp1325513167-90] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:29:43 [qtp1325513167-90] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:31:00 [qtp1325513167-94] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:31:02 [qtp1325513167-94] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:31:14 [qtp1325513167-91] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:31:14 [qtp1325513167-91] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+21:50:25 [qtp1325513167-97] WARN  o.e.jetty.servlet.ServletHandler - 
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is redis.clients.jedis.exceptions.JedisDataException: ERR wrong number of arguments for 'set' command
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:800) ~[jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669) ~[jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:344) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:261) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652) ~[jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652) ~[jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585) [jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577) [jetty-security-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1125) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515) [jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1059) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.Server.handle(Server.java:497) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:313) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:248) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540) [jetty-io-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:626) [jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:546) [jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR wrong number of arguments for 'set' command
+	at redis.clients.jedis.Protocol.processError(Protocol.java:113) ~[jedis-2.6.2.jar:na]
+	at redis.clients.jedis.Protocol.process(Protocol.java:138) ~[jedis-2.6.2.jar:na]
+	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[jedis-2.6.2.jar:na]
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:282) ~[jedis-2.6.2.jar:na]
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:181) ~[jedis-2.6.2.jar:na]
+	at redis.clients.jedis.Jedis.set(Jedis.java:2839) ~[jedis-2.6.2.jar:na]
+	at com.whtriples.airPurge.redis.JedisTemplate$7.action(JedisTemplate.java:203) ~[classes/:na]
+	at com.whtriples.airPurge.redis.JedisTemplate$7.action(JedisTemplate.java:199) ~[classes/:na]
+	at com.whtriples.airPurge.redis.JedisTemplate.execute(JedisTemplate.java:37) ~[classes/:na]
+	at com.whtriples.airPurge.redis.JedisTemplate.setnxex(JedisTemplate.java:199) ~[classes/:na]
+	at com.whtriples.airPurge.mobile.web.MobileHtml5Controller.queryHistoryData(MobileHtml5Controller.java:440) ~[classes/:na]
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_45]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	... 41 common frames omitted
+21:50:54 [qtp1325513167-99] WARN  o.e.jetty.servlet.ServletHandler - 
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is redis.clients.jedis.exceptions.JedisDataException: ERR wrong number of arguments for 'set' command
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:800) ~[jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669) ~[jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:344) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:261) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652) ~[jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652) ~[jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585) [jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577) [jetty-security-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1125) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515) [jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1059) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.Server.handle(Server.java:497) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:313) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:248) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540) [jetty-io-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:626) [jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:546) [jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR wrong number of arguments for 'set' command
+	at redis.clients.jedis.Protocol.processError(Protocol.java:113) ~[jedis-2.6.2.jar:na]
+	at redis.clients.jedis.Protocol.process(Protocol.java:138) ~[jedis-2.6.2.jar:na]
+	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[jedis-2.6.2.jar:na]
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:282) ~[jedis-2.6.2.jar:na]
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:181) ~[jedis-2.6.2.jar:na]
+	at redis.clients.jedis.Jedis.set(Jedis.java:2839) ~[jedis-2.6.2.jar:na]
+	at com.whtriples.airPurge.redis.JedisTemplate$7.action(JedisTemplate.java:203) ~[classes/:na]
+	at com.whtriples.airPurge.redis.JedisTemplate$7.action(JedisTemplate.java:199) ~[classes/:na]
+	at com.whtriples.airPurge.redis.JedisTemplate.execute(JedisTemplate.java:37) ~[classes/:na]
+	at com.whtriples.airPurge.redis.JedisTemplate.setnxex(JedisTemplate.java:199) ~[classes/:na]
+	at com.whtriples.airPurge.mobile.web.MobileHtml5Controller.queryHistoryData(MobileHtml5Controller.java:440) ~[classes/:na]
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_45]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	... 41 common frames omitted
+21:52:34 [qtp1325513167-97] WARN  o.e.jetty.servlet.ServletHandler - 
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is redis.clients.jedis.exceptions.JedisDataException: ERR wrong number of arguments for 'set' command
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:800) ~[jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669) ~[jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:344) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:261) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652) ~[jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652) ~[jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585) [jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577) [jetty-security-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1125) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515) [jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1059) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.Server.handle(Server.java:497) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:313) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:248) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540) [jetty-io-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:626) [jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:546) [jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR wrong number of arguments for 'set' command
+	at redis.clients.jedis.Protocol.processError(Protocol.java:113) ~[jedis-2.6.2.jar:na]
+	at redis.clients.jedis.Protocol.process(Protocol.java:138) ~[jedis-2.6.2.jar:na]
+	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[jedis-2.6.2.jar:na]
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:282) ~[jedis-2.6.2.jar:na]
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:181) ~[jedis-2.6.2.jar:na]
+	at redis.clients.jedis.Jedis.set(Jedis.java:2839) ~[jedis-2.6.2.jar:na]
+	at com.whtriples.airPurge.redis.JedisTemplate$7.action(JedisTemplate.java:203) ~[classes/:na]
+	at com.whtriples.airPurge.redis.JedisTemplate$7.action(JedisTemplate.java:199) ~[classes/:na]
+	at com.whtriples.airPurge.redis.JedisTemplate.execute(JedisTemplate.java:37) ~[classes/:na]
+	at com.whtriples.airPurge.redis.JedisTemplate.setnxex(JedisTemplate.java:199) ~[classes/:na]
+	at com.whtriples.airPurge.mobile.web.MobileHtml5Controller.queryHistoryData(MobileHtml5Controller.java:440) ~[classes/:na]
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_45]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	... 41 common frames omitted
+22:00:00 [SockJS-1] WARN  c.w.airPurge.mobile.task.WeatherTask - --------执行定时任务----------
+22:00:06 [SockJS-1] WARN  c.w.airPurge.mobile.task.WeatherTask - get Data fail
+22:13:57 [main] WARN  o.e.jetty.security.SecurityHandler - ServletContext@o.e.j.w.WebAppContext@3bc8c52e{/airPurge,file:/G:/work/airPurge/src/main/webapp/,STARTING}{src/main/webapp} has uncovered http methods for path: /
+22:13:58 [main] WARN  c.w.airPurge.mobile.push.PushService - start scoket service finished
+22:13:58 [main] WARN  c.w.airPurge.redis.JedisTemplate - 初始化redis----
+22:13:59 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据--------
+22:14:06 [main] WARN  c.w.airPurge.mobile.task.WeatherTask - get Data fail
+22:14:06 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据结束----------
+22:17:03 [main] WARN  o.e.jetty.security.SecurityHandler - ServletContext@o.e.j.w.WebAppContext@24be0018{/airPurge,file:/G:/work/airPurge/src/main/webapp/,STARTING}{src/main/webapp} has uncovered http methods for path: /
+22:17:04 [main] WARN  c.w.airPurge.mobile.push.PushService - start scoket service finished
+22:17:04 [main] WARN  c.w.airPurge.redis.JedisTemplate - 初始化redis----
+22:17:05 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据--------
+22:17:09 [main] WARN  c.w.airPurge.mobile.weather.Weather - result: {"HeWeather data service 3.0":[{"aqi":{"city":{"aqi":"144","co":"1","no2":"57","o3":"146","pm10":"168","pm25":"71","qlty":"轻度污染","so2":"13"}},"basic":{"city":"武汉","cnty":"中国","id":"CN101200101","lat":"30.573000","lon":"114.279000","update":{"loc":"2015-08-29 21:45","utc":"2015-08-29 13:46"}},"daily_forecast":[{"astro":{"sr":"05:57","ss":"18:50"},"cond":{"code_d":"103","code_n":"100","txt_d":"晴间多云","txt_n":"晴"},"date":"2015-08-29","hum":"41","pcpn":"0.5","pop":"44","pres":"1007","tmp":{"max":"36","min":"22"},"vis":"10","wind":{"deg":"38","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:49"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-30","hum":"40","pcpn":"0.0","pop":"36","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"74","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:48"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-31","hum":"40","pcpn":"0.0","pop":"0","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"75","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:46"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-01","hum":"41","pcpn":"0.0","pop":"0","pres":"1008","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"86","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:45"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-02","hum":"40","pcpn":"0.0","pop":"0","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"110","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:44"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-03","hum":"41","pcpn":"0.0","pop":"1","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"111","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:43"},"cond":{"code_d":"305","code_n":"306","txt_d":"小雨","txt_n":"中雨"},"date":"2015-09-04","hum":"54","pcpn":"24.7","pop":"49","pres":"1006","tmp":{"max":"29","min":"23"},"vis":"7","wind":{"deg":"191","dir":"无持续风向","sc":"微风","spd":"0"}}],"hourly_forecast":[{"date":"2015-08-29 22:00","hum":"57","pop":"0","pres":"1007","tmp":"32","wind":{"deg":"139","dir":"东南风","sc":"微风","spd":"8"}}],"now":{"cond":{"code":"100","txt":"晴"},"fl":"30","hum":"97","pcpn":"0","pres":"1007","tmp":"24","vis":"8","wind":{"deg":"164","dir":"北风","sc":"微风","spd":"0"}},"status":"ok","suggestion":{"comf":{"brf":"较不舒适","txt":"白天天气多云，同时会感到有些热，不很舒适。"},"cw":{"brf":"较适宜","txt":"较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持一天。"},"drsg":{"brf":"炎热","txt":"天气炎热，建议着短衫、短裙、短裤、薄型T恤衫等清凉夏季服装。"},"flu":{"brf":"少发","txt":"各项气象条件适宜，发生感冒机率较低。但请避免长期处于空调房间中，以防感冒。"},"sport":{"brf":"较适宜","txt":"天气较好，较适宜进行各种运动，但因天气热，请适当减少运动时间，降低运动强度。"},"trav":{"brf":"较适宜","txt":"天气较好，温度较高，天气较热，但有微风相伴，还是比较适宜旅游的，不过外出时要注意防暑防晒哦！"},"uv":{"brf":"中等","txt":"属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。"}}}]}
+22:17:09 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据结束----------
+22:19:37 [qtp1325513167-67] WARN  o.e.jetty.servlet.ServletHandler - 
+org.springframework.web.util.NestedServletException: Handler processing failed; nested exception is java.lang.OutOfMemoryError: Java heap space
+	at org.springframework.web.servlet.DispatcherServlet.triggerAfterCompletionWithError(DispatcherServlet.java:1287) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:961) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:800) ~[jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669) ~[jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:344) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:261) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652) ~[jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652) ~[jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585) [jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577) [jetty-security-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1125) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515) [jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1059) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.Server.handle(Server.java:497) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:313) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:248) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540) [jetty-io-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:626) [jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:546) [jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:2245) ~[na:1.7.0_45]
+	at java.util.Arrays.copyOf(Arrays.java:2219) ~[na:1.7.0_45]
+	at java.util.ArrayList.toArray(ArrayList.java:358) ~[na:1.7.0_45]
+	at java.util.ArrayList.addAll(ArrayList.java:559) ~[na:1.7.0_45]
+	at com.whtriples.airPurge.mobile.web.MobileHtml5Controller.queryHistoryData(MobileHtml5Controller.java:398) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_45]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842) ~[spring-webmvc-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:800) ~[jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669) ~[jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) ~[shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) ~[shiro-core-1.2.3.jar:1.2.3]
+22:27:47 [main] WARN  o.e.jetty.security.SecurityHandler - ServletContext@o.e.j.w.WebAppContext@24be0018{/airPurge,file:/G:/work/airPurge/src/main/webapp/,STARTING}{src/main/webapp} has uncovered http methods for path: /
+22:27:48 [main] WARN  c.w.airPurge.mobile.push.PushService - start scoket service finished
+22:27:49 [main] WARN  c.w.airPurge.redis.JedisTemplate - 初始化redis----
+22:27:49 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据--------
+22:27:52 [main] WARN  c.w.airPurge.mobile.weather.Weather - result: {"HeWeather data service 3.0":[{"aqi":{"city":{"aqi":"144","co":"1","no2":"57","o3":"146","pm10":"168","pm25":"71","qlty":"轻度污染","so2":"13"}},"basic":{"city":"武汉","cnty":"中国","id":"CN101200101","lat":"30.573000","lon":"114.279000","update":{"loc":"2015-08-29 21:45","utc":"2015-08-29 13:46"}},"daily_forecast":[{"astro":{"sr":"05:57","ss":"18:50"},"cond":{"code_d":"103","code_n":"100","txt_d":"晴间多云","txt_n":"晴"},"date":"2015-08-29","hum":"41","pcpn":"0.5","pop":"44","pres":"1007","tmp":{"max":"36","min":"22"},"vis":"10","wind":{"deg":"38","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:49"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-30","hum":"40","pcpn":"0.0","pop":"36","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"74","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:48"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-31","hum":"40","pcpn":"0.0","pop":"0","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"75","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:46"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-01","hum":"41","pcpn":"0.0","pop":"0","pres":"1008","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"86","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:45"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-02","hum":"40","pcpn":"0.0","pop":"0","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"110","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:44"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-03","hum":"41","pcpn":"0.0","pop":"1","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"111","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:43"},"cond":{"code_d":"305","code_n":"306","txt_d":"小雨","txt_n":"中雨"},"date":"2015-09-04","hum":"54","pcpn":"24.7","pop":"49","pres":"1006","tmp":{"max":"29","min":"23"},"vis":"7","wind":{"deg":"191","dir":"无持续风向","sc":"微风","spd":"0"}}],"hourly_forecast":[{"date":"2015-08-29 22:00","hum":"57","pop":"0","pres":"1007","tmp":"32","wind":{"deg":"139","dir":"东南风","sc":"微风","spd":"8"}}],"now":{"cond":{"code":"100","txt":"晴"},"fl":"30","hum":"97","pcpn":"0","pres":"1007","tmp":"24","vis":"8","wind":{"deg":"164","dir":"北风","sc":"微风","spd":"0"}},"status":"ok","suggestion":{"comf":{"brf":"较不舒适","txt":"白天天气多云，同时会感到有些热，不很舒适。"},"cw":{"brf":"较适宜","txt":"较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持一天。"},"drsg":{"brf":"炎热","txt":"天气炎热，建议着短衫、短裙、短裤、薄型T恤衫等清凉夏季服装。"},"flu":{"brf":"少发","txt":"各项气象条件适宜，发生感冒机率较低。但请避免长期处于空调房间中，以防感冒。"},"sport":{"brf":"较适宜","txt":"天气较好，较适宜进行各种运动，但因天气热，请适当减少运动时间，降低运动强度。"},"trav":{"brf":"较适宜","txt":"天气较好，温度较高，天气较热，但有微风相伴，还是比较适宜旅游的，不过外出时要注意防暑防晒哦！"},"uv":{"brf":"中等","txt":"属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。"}}}]}
+22:27:52 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据结束----------
+22:27:58 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:27:58 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:27:59 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:27:59 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:00 [qtp1325513167-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:00 [qtp1325513167-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:02 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:02 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:41 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:41 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:42 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:42 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:43 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:43 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:43 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:43 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:43 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:43 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:43 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:43 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:43 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:43 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:43 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:44 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:44 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:44 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:44 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:44 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:44 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:44 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:44 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:28:44 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:39 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:39 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:39 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:39 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:39 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:39 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:39 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:39 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:40 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:40 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:40 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:40 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:40 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:40 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:40 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:40 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:40 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:40 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:40 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:40 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:41 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:41 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:41 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:41 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:41 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:41 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:41 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:41 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:41 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:41 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:41 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:41 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:42 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:42 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:42 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:42 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:42 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:42 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:42 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:42 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:42 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:42 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:42 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:42 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:43 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:43 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:43 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:29:43 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:30:11 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:30:11 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:30:12 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:30:12 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:30:12 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:30:12 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:30:12 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:30:12 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:30:53 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:31:03 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:31:11 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:31:24 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:31:30 [qtp1325513167-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:33:55 [qtp1325513167-70] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:38:22 [main] WARN  o.e.jetty.security.SecurityHandler - ServletContext@o.e.j.w.WebAppContext@35f83a80{/airPurge,file:/G:/work/airPurge/src/main/webapp/,STARTING}{src/main/webapp} has uncovered http methods for path: /
+22:38:23 [main] WARN  c.w.airPurge.mobile.push.PushService - start scoket service finished
+22:38:23 [main] WARN  c.w.airPurge.redis.JedisTemplate - 初始化redis----
+22:38:24 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据--------
+22:38:26 [main] WARN  c.w.airPurge.mobile.weather.Weather - result: {"HeWeather data service 3.0":[{"aqi":{"city":{"aqi":"144","co":"1","no2":"57","o3":"146","pm10":"168","pm25":"71","qlty":"轻度污染","so2":"13"}},"basic":{"city":"武汉","cnty":"中国","id":"CN101200101","lat":"30.573000","lon":"114.279000","update":{"loc":"2015-08-29 21:45","utc":"2015-08-29 13:46"}},"daily_forecast":[{"astro":{"sr":"05:57","ss":"18:50"},"cond":{"code_d":"103","code_n":"100","txt_d":"晴间多云","txt_n":"晴"},"date":"2015-08-29","hum":"41","pcpn":"0.5","pop":"44","pres":"1007","tmp":{"max":"36","min":"22"},"vis":"10","wind":{"deg":"38","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:49"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-30","hum":"40","pcpn":"0.0","pop":"36","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"74","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:48"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-31","hum":"40","pcpn":"0.0","pop":"0","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"75","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:46"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-01","hum":"41","pcpn":"0.0","pop":"0","pres":"1008","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"86","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:45"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-02","hum":"40","pcpn":"0.0","pop":"0","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"110","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:44"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-03","hum":"41","pcpn":"0.0","pop":"1","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"111","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:43"},"cond":{"code_d":"305","code_n":"306","txt_d":"小雨","txt_n":"中雨"},"date":"2015-09-04","hum":"54","pcpn":"24.7","pop":"49","pres":"1006","tmp":{"max":"29","min":"23"},"vis":"7","wind":{"deg":"191","dir":"无持续风向","sc":"微风","spd":"0"}}],"hourly_forecast":[{"date":"2015-08-29 22:00","hum":"57","pop":"0","pres":"1007","tmp":"32","wind":{"deg":"139","dir":"东南风","sc":"微风","spd":"8"}}],"now":{"cond":{"code":"100","txt":"晴"},"fl":"30","hum":"97","pcpn":"0","pres":"1007","tmp":"24","vis":"8","wind":{"deg":"164","dir":"北风","sc":"微风","spd":"0"}},"status":"ok","suggestion":{"comf":{"brf":"较不舒适","txt":"白天天气多云，同时会感到有些热，不很舒适。"},"cw":{"brf":"较适宜","txt":"较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持一天。"},"drsg":{"brf":"炎热","txt":"天气炎热，建议着短衫、短裙、短裤、薄型T恤衫等清凉夏季服装。"},"flu":{"brf":"少发","txt":"各项气象条件适宜，发生感冒机率较低。但请避免长期处于空调房间中，以防感冒。"},"sport":{"brf":"较适宜","txt":"天气较好，较适宜进行各种运动，但因天气热，请适当减少运动时间，降低运动强度。"},"trav":{"brf":"较适宜","txt":"天气较好，温度较高，天气较热，但有微风相伴，还是比较适宜旅游的，不过外出时要注意防暑防晒哦！"},"uv":{"brf":"中等","txt":"属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。"}}}]}
+22:38:26 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据结束----------
+22:38:30 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:38:30 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:38:57 [main] WARN  o.e.jetty.security.SecurityHandler - ServletContext@o.e.j.w.WebAppContext@3bc8c52e{/airPurge,file:/G:/work/airPurge/src/main/webapp/,STARTING}{src/main/webapp} has uncovered http methods for path: /
+22:38:58 [main] WARN  c.w.airPurge.mobile.push.PushService - start scoket service finished
+22:38:58 [main] WARN  c.w.airPurge.redis.JedisTemplate - 初始化redis----
+22:38:58 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据--------
+22:39:01 [main] WARN  c.w.airPurge.mobile.weather.Weather - result: {"HeWeather data service 3.0":[{"aqi":{"city":{"aqi":"144","co":"1","no2":"57","o3":"146","pm10":"168","pm25":"71","qlty":"轻度污染","so2":"13"}},"basic":{"city":"武汉","cnty":"中国","id":"CN101200101","lat":"30.573000","lon":"114.279000","update":{"loc":"2015-08-29 21:45","utc":"2015-08-29 13:46"}},"daily_forecast":[{"astro":{"sr":"05:57","ss":"18:50"},"cond":{"code_d":"103","code_n":"100","txt_d":"晴间多云","txt_n":"晴"},"date":"2015-08-29","hum":"41","pcpn":"0.5","pop":"44","pres":"1007","tmp":{"max":"36","min":"22"},"vis":"10","wind":{"deg":"38","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:49"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-30","hum":"40","pcpn":"0.0","pop":"36","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"74","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:48"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-31","hum":"40","pcpn":"0.0","pop":"0","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"75","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:46"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-01","hum":"41","pcpn":"0.0","pop":"0","pres":"1008","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"86","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:45"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-02","hum":"40","pcpn":"0.0","pop":"0","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"110","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:44"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-03","hum":"41","pcpn":"0.0","pop":"1","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"111","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:43"},"cond":{"code_d":"305","code_n":"306","txt_d":"小雨","txt_n":"中雨"},"date":"2015-09-04","hum":"54","pcpn":"24.7","pop":"49","pres":"1006","tmp":{"max":"29","min":"23"},"vis":"7","wind":{"deg":"191","dir":"无持续风向","sc":"微风","spd":"0"}}],"hourly_forecast":[{"date":"2015-08-29 22:00","hum":"57","pop":"0","pres":"1007","tmp":"32","wind":{"deg":"139","dir":"东南风","sc":"微风","spd":"8"}}],"now":{"cond":{"code":"100","txt":"晴"},"fl":"30","hum":"97","pcpn":"0","pres":"1007","tmp":"24","vis":"8","wind":{"deg":"164","dir":"北风","sc":"微风","spd":"0"}},"status":"ok","suggestion":{"comf":{"brf":"较不舒适","txt":"白天天气多云，同时会感到有些热，不很舒适。"},"cw":{"brf":"较适宜","txt":"较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持一天。"},"drsg":{"brf":"炎热","txt":"天气炎热，建议着短衫、短裙、短裤、薄型T恤衫等清凉夏季服装。"},"flu":{"brf":"少发","txt":"各项气象条件适宜，发生感冒机率较低。但请避免长期处于空调房间中，以防感冒。"},"sport":{"brf":"较适宜","txt":"天气较好，较适宜进行各种运动，但因天气热，请适当减少运动时间，降低运动强度。"},"trav":{"brf":"较适宜","txt":"天气较好，温度较高，天气较热，但有微风相伴，还是比较适宜旅游的，不过外出时要注意防暑防晒哦！"},"uv":{"brf":"中等","txt":"属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。"}}}]}
+22:39:01 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据结束----------
+22:42:29 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:42:29 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:42:48 [qtp1325513167-70] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:42:48 [qtp1325513167-70] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:43:04 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:43:04 [qtp1325513167-67] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:43:07 [qtp1325513167-71] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:43:07 [qtp1325513167-71] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:44:43 [main] WARN  o.e.jetty.security.SecurityHandler - ServletContext@o.e.j.w.WebAppContext@35f83a80{/airPurge,file:/G:/work/airPurge/src/main/webapp/,STARTING}{src/main/webapp} has uncovered http methods for path: /
+22:44:44 [main] WARN  c.w.airPurge.mobile.push.PushService - start scoket service finished
+22:44:44 [main] WARN  c.w.airPurge.redis.JedisTemplate - 初始化redis----
+22:44:45 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据--------
+22:44:47 [main] WARN  c.w.airPurge.mobile.weather.Weather - result: {"HeWeather data service 3.0":[{"aqi":{"city":{"aqi":"144","co":"1","no2":"57","o3":"146","pm10":"168","pm25":"71","qlty":"轻度污染","so2":"13"}},"basic":{"city":"武汉","cnty":"中国","id":"CN101200101","lat":"30.573000","lon":"114.279000","update":{"loc":"2015-08-29 21:45","utc":"2015-08-29 13:46"}},"daily_forecast":[{"astro":{"sr":"05:57","ss":"18:50"},"cond":{"code_d":"103","code_n":"100","txt_d":"晴间多云","txt_n":"晴"},"date":"2015-08-29","hum":"41","pcpn":"0.5","pop":"44","pres":"1007","tmp":{"max":"36","min":"22"},"vis":"10","wind":{"deg":"38","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:49"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-30","hum":"40","pcpn":"0.0","pop":"36","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"74","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:48"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-31","hum":"40","pcpn":"0.0","pop":"0","pres":"1007","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"75","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:46"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-01","hum":"41","pcpn":"0.0","pop":"0","pres":"1008","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"86","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:45"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-02","hum":"40","pcpn":"0.0","pop":"0","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"110","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:44"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-03","hum":"41","pcpn":"0.0","pop":"1","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"111","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:43"},"cond":{"code_d":"305","code_n":"306","txt_d":"小雨","txt_n":"中雨"},"date":"2015-09-04","hum":"54","pcpn":"24.7","pop":"49","pres":"1006","tmp":{"max":"29","min":"23"},"vis":"7","wind":{"deg":"191","dir":"无持续风向","sc":"微风","spd":"0"}}],"hourly_forecast":[{"date":"2015-08-29 22:00","hum":"57","pop":"0","pres":"1007","tmp":"32","wind":{"deg":"139","dir":"东南风","sc":"微风","spd":"8"}}],"now":{"cond":{"code":"100","txt":"晴"},"fl":"30","hum":"97","pcpn":"0","pres":"1007","tmp":"24","vis":"8","wind":{"deg":"164","dir":"北风","sc":"微风","spd":"0"}},"status":"ok","suggestion":{"comf":{"brf":"较不舒适","txt":"白天天气多云，同时会感到有些热，不很舒适。"},"cw":{"brf":"较适宜","txt":"较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持一天。"},"drsg":{"brf":"炎热","txt":"天气炎热，建议着短衫、短裙、短裤、薄型T恤衫等清凉夏季服装。"},"flu":{"brf":"少发","txt":"各项气象条件适宜，发生感冒机率较低。但请避免长期处于空调房间中，以防感冒。"},"sport":{"brf":"较适宜","txt":"天气较好，较适宜进行各种运动，但因天气热，请适当减少运动时间，降低运动强度。"},"trav":{"brf":"较适宜","txt":"天气较好，温度较高，天气较热，但有微风相伴，还是比较适宜旅游的，不过外出时要注意防暑防晒哦！"},"uv":{"brf":"中等","txt":"属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。"}}}]}
+22:44:48 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据结束----------
+22:48:17 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:48:17 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:48:23 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:48:23 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:48:24 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:48:24 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:48:24 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:48:24 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:48:24 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:48:24 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:48:24 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:48:24 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:48:24 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:48:24 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:48:25 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:48:25 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:48:25 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:48:25 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:50:14 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:50:14 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:50:27 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:50:28 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:50:28 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:50:28 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:50:28 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:50:28 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:50:28 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:50:43 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:58:39 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:58:45 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:58:45 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:58:45 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:58:45 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:58:46 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:58:46 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:58:47 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:58:47 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:58:48 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:58:48 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:58:57 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:58:57 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:58:57 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:58:57 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:58:58 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:58:58 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:59:10 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+22:59:10 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:00:00 [SockJS-1] WARN  c.w.airPurge.mobile.task.WeatherTask - --------执行定时任务----------
+23:00:00 [SockJS-1] WARN  c.w.airPurge.mobile.weather.Weather - result: {"HeWeather data service 3.0":[{"aqi":{"city":{"aqi":"137","co":"1","no2":"64","o3":"117","pm10":"174","pm25":"75","qlty":"轻度污染","so2":"12"}},"basic":{"city":"武汉","cnty":"中国","id":"CN101200101","lat":"30.573000","lon":"114.279000","update":{"loc":"2015-08-29 22:45","utc":"2015-08-29 14:46"}},"daily_forecast":[{"astro":{"sr":"05:57","ss":"18:50"},"cond":{"code_d":"103","code_n":"100","txt_d":"晴间多云","txt_n":"晴"},"date":"2015-08-29","hum":"41","pcpn":"0.5","pop":"44","pres":"1007","tmp":{"max":"35","min":"22"},"vis":"10","wind":{"deg":"38","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:49"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-30","hum":"39","pcpn":"0.0","pop":"12","pres":"1008","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"103","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:48"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-31","hum":"39","pcpn":"0.0","pop":"0","pres":"1008","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"76","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:46"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-01","hum":"39","pcpn":"0.0","pop":"0","pres":"1007","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"56","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:45"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-02","hum":"37","pcpn":"0.0","pop":"0","pres":"1009","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"72","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:44"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-03","hum":"39","pcpn":"0.0","pop":"0","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"95","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:43"},"cond":{"code_d":"305","code_n":"306","txt_d":"小雨","txt_n":"中雨"},"date":"2015-09-04","hum":"43","pcpn":"0.0","pop":"46","pres":"1009","tmp":{"max":"29","min":"23"},"vis":"10","wind":{"deg":"103","dir":"无持续风向","sc":"微风","spd":"0"}}],"hourly_forecast":[{"date":"2015-08-29 22:00","hum":"62","pop":"0","pres":"1008","tmp":"29","wind":{"deg":"205","dir":"西南风","sc":"微风","spd":"5"}}],"now":{"cond":{"code":"100","txt":"晴"},"fl":"28","hum":"97","pcpn":"0","pres":"1008","tmp":"24","vis":"9","wind":{"deg":"190","dir":"北风","sc":"微风","spd":"0"}},"status":"ok","suggestion":{"comf":{"brf":"较不舒适","txt":"白天天气多云，同时会感到有些热，不很舒适。"},"cw":{"brf":"较适宜","txt":"较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持一天。"},"drsg":{"brf":"炎热","txt":"天气炎热，建议着短衫、短裙、短裤、薄型T恤衫等清凉夏季服装。"},"flu":{"brf":"少发","txt":"各项气象条件适宜，发生感冒机率较低。但请避免长期处于空调房间中，以防感冒。"},"sport":{"brf":"较适宜","txt":"天气较好，较适宜进行各种运动，但因天气热，请适当减少运动时间，降低运动强度。"},"trav":{"brf":"较适宜","txt":"天气较好，温度较高，天气较热，但有微风相伴，还是比较适宜旅游的，不过外出时要注意防暑防晒哦！"},"uv":{"brf":"中等","txt":"属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。"}}}]}
+23:00:01 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:00:34 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:01:08 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:01:12 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:01:15 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:01:15 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:01:20 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:01:20 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:01:49 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:01:49 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:01:50 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:01:50 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:01:50 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:01:50 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:01:50 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:01:50 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:01:50 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:01:50 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:02:07 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:02:07 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:02:12 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:02:12 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:02:25 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:02:25 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:02:26 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:02:26 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:03:14 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:03:14 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:03:15 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:03:15 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:04:12 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:04:12 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:04:13 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:04:13 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:04:23 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:04:37 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:04:37 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:04:54 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:04:54 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:05:35 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:05:35 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:05:47 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:05:47 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:06:16 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:07:02 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:07:02 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:07:04 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:07:04 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:08:57 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:08:57 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:09:12 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:09:12 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:09:13 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:09:13 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:09:14 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:09:14 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:09:16 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:09:16 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:09:17 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:09:17 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:09:19 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:09:19 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:09:24 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:09:24 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:09:26 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:09:26 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:09:59 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:09:59 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:11:13 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:11:13 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:11:15 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:11:15 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:12:06 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:12:06 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:12:14 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:12:14 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:12:20 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:12:20 [qtp2051927438-17] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:12:43 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:12:43 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:12:46 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:12:46 [qtp2051927438-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:13:43 [main] WARN  o.e.jetty.security.SecurityHandler - ServletContext@o.e.j.w.WebAppContext@3bc8c52e{/airPurge,file:/G:/work/airPurge/src/main/webapp/,STARTING}{src/main/webapp} has uncovered http methods for path: /
+23:13:44 [main] WARN  o.s.w.c.s.XmlWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pushService': Invocation of init method failed; nested exception is org.jboss.netty.channel.ChannelException: Failed to bind to: 0.0.0.0/0.0.0.0:8011
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:136) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1558) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:762) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757) ~[spring-context-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480) ~[spring-context-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403) [spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306) [spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106) [spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:798) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:444) [jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:789) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:294) [jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1345) [jetty-webapp-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1338) [jetty-webapp-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:501) [jetty-webapp-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132) [jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.Server.start(Server.java:387) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114) [jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at com.whtriples.airPurge.jetty.QuickStartServer.main(QuickStartServer.java:25) [classes/:na]
+Caused by: org.jboss.netty.channel.ChannelException: Failed to bind to: 0.0.0.0/0.0.0.0:8011
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:272) ~[netty-3.9.6.Final.jar:na]
+	at com.whtriples.airPurge.mobile.push.PushService.startServerReader(PushService.java:49) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_45]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:349) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:300) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:133) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	... 30 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:444) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:436) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.7.0_45]
+	at org.jboss.netty.channel.socket.nio.NioServerBoss$RegisterTask.run(NioServerBoss.java:193) ~[netty-3.9.6.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.processTaskQueue(AbstractNioSelector.java:391) ~[netty-3.9.6.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:315) ~[netty-3.9.6.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerBoss.run(NioServerBoss.java:42) ~[netty-3.9.6.Final.jar:na]
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108) ~[netty-3.9.6.Final.jar:na]
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42) ~[netty-3.9.6.Final.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) ~[na:1.7.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) ~[na:1.7.0_45]
+	at java.lang.Thread.run(Thread.java:744) ~[na:1.7.0_45]
+23:13:44 [main] ERROR o.s.web.context.ContextLoader - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pushService': Invocation of init method failed; nested exception is org.jboss.netty.channel.ChannelException: Failed to bind to: 0.0.0.0/0.0.0.0:8011
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:136) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1558) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:762) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757) ~[spring-context-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480) ~[spring-context-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106) [spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:798) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:444) [jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:789) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:294) [jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1345) [jetty-webapp-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1338) [jetty-webapp-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:501) [jetty-webapp-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132) [jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.Server.start(Server.java:387) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114) [jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at com.whtriples.airPurge.jetty.QuickStartServer.main(QuickStartServer.java:25) [classes/:na]
+Caused by: org.jboss.netty.channel.ChannelException: Failed to bind to: 0.0.0.0/0.0.0.0:8011
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:272) ~[netty-3.9.6.Final.jar:na]
+	at com.whtriples.airPurge.mobile.push.PushService.startServerReader(PushService.java:49) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_45]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:349) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:300) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:133) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	... 30 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:444) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:436) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.7.0_45]
+	at org.jboss.netty.channel.socket.nio.NioServerBoss$RegisterTask.run(NioServerBoss.java:193) ~[netty-3.9.6.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.processTaskQueue(AbstractNioSelector.java:391) ~[netty-3.9.6.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:315) ~[netty-3.9.6.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerBoss.run(NioServerBoss.java:42) ~[netty-3.9.6.Final.jar:na]
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108) ~[netty-3.9.6.Final.jar:na]
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42) ~[netty-3.9.6.Final.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) ~[na:1.7.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) ~[na:1.7.0_45]
+	at java.lang.Thread.run(Thread.java:744) ~[na:1.7.0_45]
+23:13:44 [main] WARN  o.eclipse.jetty.webapp.WebAppContext - Failed startup of context o.e.j.w.WebAppContext@3bc8c52e{/airPurge,file:/G:/work/airPurge/src/main/webapp/,STARTING}{src/main/webapp}
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pushService': Invocation of init method failed; nested exception is org.jboss.netty.channel.ChannelException: Failed to bind to: 0.0.0.0/0.0.0.0:8011
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:136) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1558) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:762) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757) ~[spring-context-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480) ~[spring-context-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106) ~[spring-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:798) ~[jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:444) ~[jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:789) ~[jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:294) ~[jetty-servlet-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1345) ~[jetty-webapp-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1338) ~[jetty-webapp-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741) ~[jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:501) ~[jetty-webapp-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132) [jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.Server.start(Server.java:387) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114) [jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at com.whtriples.airPurge.jetty.QuickStartServer.main(QuickStartServer.java:25) [classes/:na]
+Caused by: org.jboss.netty.channel.ChannelException: Failed to bind to: 0.0.0.0/0.0.0.0:8011
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:272) ~[netty-3.9.6.Final.jar:na]
+	at com.whtriples.airPurge.mobile.push.PushService.startServerReader(PushService.java:49) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_45]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:349) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:300) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:133) ~[spring-beans-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	... 30 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:444) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:436) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.7.0_45]
+	at org.jboss.netty.channel.socket.nio.NioServerBoss$RegisterTask.run(NioServerBoss.java:193) ~[netty-3.9.6.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.processTaskQueue(AbstractNioSelector.java:391) ~[netty-3.9.6.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:315) ~[netty-3.9.6.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerBoss.run(NioServerBoss.java:42) ~[netty-3.9.6.Final.jar:na]
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108) ~[netty-3.9.6.Final.jar:na]
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42) ~[netty-3.9.6.Final.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) ~[na:1.7.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) ~[na:1.7.0_45]
+	at java.lang.Thread.run(Thread.java:744) ~[na:1.7.0_45]
+23:13:44 [main] WARN  o.e.j.u.component.AbstractLifeCycle - FAILED ServerConnector@46ba07d3{HTTP/1.1}{0.0.0.0:9998}: java.net.BindException: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:444) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:436) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.7.0_45]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:321) ~[jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) ~[jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:366) [jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at com.whtriples.airPurge.jetty.QuickStartServer.main(QuickStartServer.java:25) [classes/:na]
+23:13:44 [main] WARN  o.e.j.u.component.AbstractLifeCycle - FAILED org.eclipse.jetty.server.Server@5f57d1eb: java.net.BindException: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:444) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:436) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.7.0_45]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:321) ~[jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) ~[jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:366) ~[jetty-server-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.2.6.v20141205.jar:9.2.6.v20141205]
+	at com.whtriples.airPurge.jetty.QuickStartServer.main(QuickStartServer.java:25) [classes/:na]
+23:13:52 [main] WARN  o.e.jetty.security.SecurityHandler - ServletContext@o.e.j.w.WebAppContext@35f83a80{/airPurge,file:/G:/work/airPurge/src/main/webapp/,STARTING}{src/main/webapp} has uncovered http methods for path: /
+23:13:53 [main] WARN  c.w.airPurge.mobile.push.PushService - start scoket service finished
+23:13:54 [main] WARN  c.w.airPurge.redis.JedisTemplate - 初始化redis----
+23:13:54 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据--------
+23:13:56 [main] WARN  c.w.airPurge.mobile.weather.Weather - result: {"HeWeather data service 3.0":[{"aqi":{"city":{"aqi":"137","co":"1","no2":"64","o3":"117","pm10":"174","pm25":"75","qlty":"轻度污染","so2":"12"}},"basic":{"city":"武汉","cnty":"中国","id":"CN101200101","lat":"30.573000","lon":"114.279000","update":{"loc":"2015-08-29 22:45","utc":"2015-08-29 14:46"}},"daily_forecast":[{"astro":{"sr":"05:57","ss":"18:50"},"cond":{"code_d":"103","code_n":"100","txt_d":"晴间多云","txt_n":"晴"},"date":"2015-08-29","hum":"41","pcpn":"0.5","pop":"44","pres":"1007","tmp":{"max":"35","min":"22"},"vis":"10","wind":{"deg":"38","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:49"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-30","hum":"39","pcpn":"0.0","pop":"12","pres":"1008","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"103","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:48"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-31","hum":"39","pcpn":"0.0","pop":"0","pres":"1008","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"76","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:46"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-01","hum":"39","pcpn":"0.0","pop":"0","pres":"1007","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"56","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:45"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-02","hum":"37","pcpn":"0.0","pop":"0","pres":"1009","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"72","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:44"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-03","hum":"39","pcpn":"0.0","pop":"0","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"95","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:43"},"cond":{"code_d":"305","code_n":"306","txt_d":"小雨","txt_n":"中雨"},"date":"2015-09-04","hum":"43","pcpn":"0.0","pop":"46","pres":"1009","tmp":{"max":"29","min":"23"},"vis":"10","wind":{"deg":"103","dir":"无持续风向","sc":"微风","spd":"0"}}],"hourly_forecast":[{"date":"2015-08-29 22:00","hum":"62","pop":"0","pres":"1008","tmp":"29","wind":{"deg":"205","dir":"西南风","sc":"微风","spd":"5"}}],"now":{"cond":{"code":"100","txt":"晴"},"fl":"28","hum":"97","pcpn":"0","pres":"1008","tmp":"24","vis":"9","wind":{"deg":"190","dir":"北风","sc":"微风","spd":"0"}},"status":"ok","suggestion":{"comf":{"brf":"较不舒适","txt":"白天天气多云，同时会感到有些热，不很舒适。"},"cw":{"brf":"较适宜","txt":"较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持一天。"},"drsg":{"brf":"炎热","txt":"天气炎热，建议着短衫、短裙、短裤、薄型T恤衫等清凉夏季服装。"},"flu":{"brf":"少发","txt":"各项气象条件适宜，发生感冒机率较低。但请避免长期处于空调房间中，以防感冒。"},"sport":{"brf":"较适宜","txt":"天气较好，较适宜进行各种运动，但因天气热，请适当减少运动时间，降低运动强度。"},"trav":{"brf":"较适宜","txt":"天气较好，温度较高，天气较热，但有微风相伴，还是比较适宜旅游的，不过外出时要注意防暑防晒哦！"},"uv":{"brf":"中等","txt":"属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。"}}}]}
+23:13:56 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据结束----------
+23:14:09 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:14:09 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:14:13 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:14:13 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:14:15 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:14:15 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:14:28 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:14:28 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:14:29 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:14:29 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:14:31 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:14:31 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:14:37 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:14:37 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:21 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:21 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:23 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:23 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:24 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:24 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:26 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:26 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:28 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:28 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:29 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:29 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:31 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:31 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:32 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:32 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:33 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:33 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:51 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:51 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:51 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:51 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:52 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:52 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:52 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:52 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:52 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:52 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:52 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:52 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:52 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:52 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:52 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:52 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:53 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:53 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:53 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:53 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:53 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:53 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:56 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:56 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:56 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:56 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:57 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:57 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:57 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:57 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:57 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:57 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:57 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:15:57 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:24 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:24 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:25 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:25 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:25 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:25 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:26 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:26 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:26 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:26 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:26 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:26 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:26 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:26 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:26 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:26 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:45 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:45 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:45 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:45 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:45 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:45 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:45 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:45 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:46 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:46 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:46 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:46 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:51 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:51 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:51 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:51 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:51 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:51 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:51 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:51 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:52 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:52 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:52 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:52 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:52 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:52 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:53 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:53 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:53 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:53 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:54 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:54 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:54 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:54 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:55 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:55 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:56 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:56 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:56 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:56 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:57 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:57 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:58 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:58 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:58 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:58 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:59 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:59 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:59 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:18:59 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:32:18 [qtp2051927438-19] WARN  c.w.airPurge.cache.TokenCache - 从数据库获取用户信息
+23:32:18 [qtp2051927438-19] WARN  c.w.airPurge.cache.TokenCache - 缓存user:{login_id=admin, token=0d05f4837cb046b5b95c49ce68bea679, user_status=0}
+23:32:18 [qtp2051927438-19] WARN  org.dozer.config.GlobalSettings - Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+23:32:27 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:32:27 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:32:32 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:32:32 [qtp2051927438-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:32:37 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:32:37 [qtp2051927438-15] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:32:42 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:32:42 [qtp2051927438-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:49:23 [main] WARN  o.e.jetty.security.SecurityHandler - ServletContext@o.e.j.w.WebAppContext@3bc8c52e{/airPurge,file:/G:/work/airPurge/src/main/webapp/,STARTING}{src/main/webapp} has uncovered http methods for path: /
+23:49:24 [main] WARN  c.w.airPurge.mobile.push.PushService - start scoket service finished
+23:49:24 [main] WARN  c.w.airPurge.redis.JedisTemplate - 初始化redis----
+23:49:24 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据--------
+23:49:26 [main] WARN  c.w.airPurge.mobile.weather.Weather - result: {"HeWeather data service 3.0":[{"aqi":{"city":{"aqi":"137","co":"1","no2":"64","o3":"117","pm10":"174","pm25":"75","qlty":"轻度污染","so2":"12"}},"basic":{"city":"武汉","cnty":"中国","id":"CN101200101","lat":"30.573000","lon":"114.279000","update":{"loc":"2015-08-29 22:45","utc":"2015-08-29 14:46"}},"daily_forecast":[{"astro":{"sr":"05:57","ss":"18:50"},"cond":{"code_d":"103","code_n":"100","txt_d":"晴间多云","txt_n":"晴"},"date":"2015-08-29","hum":"41","pcpn":"0.5","pop":"44","pres":"1007","tmp":{"max":"35","min":"22"},"vis":"10","wind":{"deg":"38","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:49"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-30","hum":"39","pcpn":"0.0","pop":"12","pres":"1008","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"103","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:58","ss":"18:48"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-31","hum":"39","pcpn":"0.0","pop":"0","pres":"1008","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"76","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:46"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-01","hum":"39","pcpn":"0.0","pop":"0","pres":"1007","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"56","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"05:59","ss":"18:45"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-02","hum":"37","pcpn":"0.0","pop":"0","pres":"1009","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"72","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:44"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-03","hum":"39","pcpn":"0.0","pop":"0","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"95","dir":"无持续风向","sc":"微风","spd":"0"}},{"astro":{"sr":"06:00","ss":"18:43"},"cond":{"code_d":"305","code_n":"306","txt_d":"小雨","txt_n":"中雨"},"date":"2015-09-04","hum":"43","pcpn":"0.0","pop":"46","pres":"1009","tmp":{"max":"29","min":"23"},"vis":"10","wind":{"deg":"103","dir":"无持续风向","sc":"微风","spd":"0"}}],"hourly_forecast":[{"date":"2015-08-29 22:00","hum":"62","pop":"0","pres":"1008","tmp":"29","wind":{"deg":"205","dir":"西南风","sc":"微风","spd":"5"}}],"now":{"cond":{"code":"100","txt":"晴"},"fl":"28","hum":"97","pcpn":"0","pres":"1008","tmp":"24","vis":"9","wind":{"deg":"190","dir":"北风","sc":"微风","spd":"0"}},"status":"ok","suggestion":{"comf":{"brf":"较不舒适","txt":"白天天气多云，同时会感到有些热，不很舒适。"},"cw":{"brf":"较适宜","txt":"较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持一天。"},"drsg":{"brf":"炎热","txt":"天气炎热，建议着短衫、短裙、短裤、薄型T恤衫等清凉夏季服装。"},"flu":{"brf":"少发","txt":"各项气象条件适宜，发生感冒机率较低。但请避免长期处于空调房间中，以防感冒。"},"sport":{"brf":"较适宜","txt":"天气较好，较适宜进行各种运动，但因天气热，请适当减少运动时间，降低运动强度。"},"trav":{"brf":"较适宜","txt":"天气较好，温度较高，天气较热，但有微风相伴，还是比较适宜旅游的，不过外出时要注意防暑防晒哦！"},"uv":{"brf":"中等","txt":"属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。"}}}]}
+23:49:26 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据结束----------
+23:50:48 [main] WARN  o.e.jetty.security.SecurityHandler - ServletContext@o.e.j.w.WebAppContext@35f83a80{/airPurge,file:/G:/work/airPurge/src/main/webapp/,STARTING}{src/main/webapp} has uncovered http methods for path: /
+23:50:50 [main] WARN  c.w.airPurge.mobile.push.PushService - start scoket service finished
+23:50:50 [main] WARN  c.w.airPurge.redis.JedisTemplate - 初始化redis----
+23:50:50 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据--------
+23:50:59 [main] WARN  c.w.airPurge.mobile.weather.Weather - result: {"HeWeather data service 3.0":[{"aqi":{"city":{"aqi":"121","co":"1","no2":"72","o3":"90","pm10":"183","pm25":"79","qlty":"轻度污染","so2":"12"}},"basic":{"city":"武汉","cnty":"中国","id":"CN101200101","lat":"30.573000","lon":"114.279000","update":{"loc":"2015-08-29 23:43","utc":"2015-08-29 15:46"}},"daily_forecast":[{"astro":{"sr":"05:57","ss":"18:50"},"cond":{"code_d":"103","code_n":"100","txt_d":"晴间多云","txt_n":"晴"},"date":"2015-08-29","hum":"41","pcpn":"0.5","pop":"44","pres":"1007","tmp":{"max":"35","min":"22"},"vis":"10","wind":{"deg":"38","dir":"无持续风向","sc":"微风","spd":"7"}},{"astro":{"sr":"05:58","ss":"18:49"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-30","hum":"39","pcpn":"0.0","pop":"12","pres":"1008","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"103","dir":"无持续风向","sc":"微风","spd":"7"}},{"astro":{"sr":"05:58","ss":"18:48"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-08-31","hum":"39","pcpn":"0.0","pop":"0","pres":"1008","tmp":{"max":"33","min":"22"},"vis":"10","wind":{"deg":"76","dir":"无持续风向","sc":"微风","spd":"7"}},{"astro":{"sr":"05:59","ss":"18:46"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-01","hum":"39","pcpn":"0.0","pop":"0","pres":"1007","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"56","dir":"无持续风向","sc":"微风","spd":"7"}},{"astro":{"sr":"05:59","ss":"18:45"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-02","hum":"37","pcpn":"0.0","pop":"0","pres":"1009","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"72","dir":"无持续风向","sc":"微风","spd":"7"}},{"astro":{"sr":"06:00","ss":"18:44"},"cond":{"code_d":"101","code_n":"101","txt_d":"多云","txt_n":"多云"},"date":"2015-09-03","hum":"39","pcpn":"0.0","pop":"0","pres":"1010","tmp":{"max":"32","min":"22"},"vis":"10","wind":{"deg":"95","dir":"无持续风向","sc":"微风","spd":"7"}},{"astro":{"sr":"06:00","ss":"18:43"},"cond":{"code_d":"305","code_n":"306","txt_d":"小雨","txt_n":"中雨"},"date":"2015-09-04","hum":"43","pcpn":"0.0","pop":"46","pres":"1009","tmp":{"max":"29","min":"23"},"vis":"10","wind":{"deg":"103","dir":"无持续风向","sc":"微风","spd":"7"}}],"hourly_forecast":[],"now":{"cond":{"code":"100","txt":"晴"},"fl":"28","hum":"98","pcpn":"0","pres":"1008","tmp":"24","vis":"8","wind":{"deg":"80","dir":"西南风","sc":"3-4","spd":"7"}},"status":"ok","suggestion":{"comf":{"brf":"较不舒适","txt":"白天天气多云，同时会感到有些热，不很舒适。"},"cw":{"brf":"较适宜","txt":"较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持一天。"},"drsg":{"brf":"炎热","txt":"天气炎热，建议着短衫、短裙、短裤、薄型T恤衫等清凉夏季服装。"},"flu":{"brf":"少发","txt":"各项气象条件适宜，发生感冒机率较低。但请避免长期处于空调房间中，以防感冒。"},"sport":{"brf":"较适宜","txt":"天气较好，较适宜进行各种运动，但因天气热，请适当减少运动时间，降低运动强度。"},"trav":{"brf":"较适宜","txt":"天气较好，温度较高，天气较热，但有微风相伴，还是比较适宜旅游的，不过外出时要注意防暑防晒哦！"},"uv":{"brf":"中等","txt":"属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。"}}}]}
+23:51:00 [main] WARN  c.w.a.mobile.task.ContainerListener - --------初始化空气质量数据结束----------
+23:52:38 [qtp1325513167-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:52:38 [qtp1325513167-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:52:44 [qtp1325513167-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:52:44 [qtp1325513167-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:52:47 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:52:47 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:52:48 [qtp1325513167-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:52:48 [qtp1325513167-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:52:50 [qtp1325513167-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:52:50 [qtp1325513167-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:52:58 [qtp1325513167-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:52:58 [qtp1325513167-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:55:19 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:55:19 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:55:21 [qtp1325513167-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:55:21 [qtp1325513167-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:55:29 [qtp1325513167-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:55:29 [qtp1325513167-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:55:30 [qtp1325513167-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:55:30 [qtp1325513167-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:55:38 [qtp1325513167-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:55:38 [qtp1325513167-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:55:44 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:55:44 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:55:45 [qtp1325513167-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:55:45 [qtp1325513167-19] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:55:45 [qtp1325513167-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:55:45 [qtp1325513167-18] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:55:46 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
+23:55:46 [qtp1325513167-16] WARN  c.w.a.m.web.MobileHtml5Controller - 从redis中获取数据
