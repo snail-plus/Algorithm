@@ -25,6 +25,9 @@ public class Log {
 	@ColumnIgnore
 	private String user_name;
 	
+	@ColumnIgnore
+	private String remarks;
+	
 	public Integer getLog_id() {
 		return log_id;
 	}
@@ -71,6 +74,14 @@ public class Log {
 
 	public void setUser_name(String user_name) {
 		this.user_name = user_name;
+	}
+
+	public String getRemarks() {
+		return remarks;
+	}
+
+	public void setRemarks(String remarks) {
+		this.remarks = remarks;
 	}
 	
 }
