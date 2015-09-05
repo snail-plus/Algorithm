@@ -1,6 +1,7 @@
 package com.whtriples.airPurge.base.web;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -72,15 +73,20 @@ public class HistoryLogController {
 	 */
 	@ResponseBody
 	@RequestMapping(value = "consmeRes")
-	public Map<String,Object> consmeRes(HttpServletRequest request,String device_id,String type) {
+	public Map<String,Object> consmeRes(String startTime,String device_id,String type) {
 		Device device = D.sql("select * from t_d_device where device_id=?").one(Device.class, device_id);
 		Map<String, Object> resMap = new HashMap<String, Object>();
 		List<Map<String, Object>> allLine = new ArrayList<Map<String, Object>>();//包含多条折线
 		List<String> hourList = new ArrayList<String>();//x轴数据
 		List<String> returnhourList = new ArrayList<String>();//x轴数据
 		ArrayList<String> dataType = Lists.newArrayList("realData", "localData");
-		
-		DateTime start_time = DateTime.now();
+		DateTime start_time = null;
+		DateTime now = DateTime.now();
+		if(now.toString().substring(0, 10).equals(startTime)){
+			 start_time = DateTime.parse(startTime+"T" + now.toString().substring(11));
+		}else{
+			 start_time = DateTime.parse(startTime+"T" + "23:59:59");
+		}
 		DateTime end_time= start_time.minusDays(1);
 		while(end_time.isBefore(start_time)) {
 			String dateStr = start_time.toString("yyyy-MM-dd HH:mm:ss");
@@ -94,7 +100,7 @@ public class HistoryLogController {
 	   for (String data_type : dataType) {
 		   List<Double> data = new ArrayList<Double>();
 		   Map<String, Object> line = new HashMap<String, Object>();
-		   line.put("name",  data_type.equals("realData") == true ? "设备数据": "室外数据");
+		   line.put("name",  data_type.equals("realData") == true ? "设备数据": device.getCity_name() +"室外数据");
 		   for (String string : hourList) {
 			   Transducer transducerData = null;
 			   Transducer localData = null;
@@ -136,12 +142,13 @@ public class HistoryLogController {
 				   }
 				   break;
 			   }
-		 	   line.put("data", data);
 		   }
+		   Collections.reverse(data);
+		   line.put("data", data);
 		   allLine.add(line);
 	   }
 	   
-	   
+	    Collections.reverse(returnhourList);
 		resMap.put("xAxis", returnhourList);
 		resMap.put("seriesData", allLine);
 		
@@ -151,13 +158,20 @@ public class HistoryLogController {
 	
 	@ResponseBody
 	@RequestMapping(value = "compareDeviceData")
-	public Map<String,Object> compareDeviceData(String device_guids,String type) {
+	public Map<String,Object> compareDeviceData(String startTime,String device_guids,String type) {
 		Map<String, Object> resMap = new HashMap<String, Object>();
 		List<Map<String, Object>> allLine = new ArrayList<Map<String, Object>>();//包含多条折线
 		List<String> hourList = new ArrayList<String>();//x轴数据
 		List<String> returnhourList = new ArrayList<String>();//x轴数据
 		String[] _device_guids = device_guids.split(",");
-		DateTime start_time = DateTime.now();
+		DateTime now = DateTime.now();
+		String nowClock = now.toString("yyyy-MM-dd HH:mm:ss").substring(11);
+		DateTime start_time = null;
+		if(now.toString().substring(0, 10).equals(startTime)){
+			 start_time = DateTime.parse(startTime+"T" + nowClock);
+		}else{
+			 start_time = DateTime.parse(startTime+"T" + "23:59:59");
+		}
 		DateTime end_time= start_time.minusDays(1);
 		while(end_time.isBefore(start_time)) {
 			String dateStr = start_time.toString("yyyy-MM-dd HH:mm:ss");
@@ -197,11 +211,12 @@ public class HistoryLogController {
 					   data.add(transducerData==null?0D:transducerData.getTemp());
 				   break;
 			   }
-		 	   line.put("data", data);
 		   }
+		   Collections.reverse(data);
+		   line.put("data",data);
 		   allLine.add(line);
 	   }
-	   
+	    Collections.reverse(returnhourList);
 		resMap.put("xAxis", returnhourList);
 		resMap.put("seriesData", allLine);
 		return resMap;
