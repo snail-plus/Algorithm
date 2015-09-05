@@ -103,7 +103,7 @@
 		</dependency>
 
 		<!-- sirona dependencies -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.apache.sirona</groupId>
 			<artifactId>sirona-core</artifactId>
 			<version>${sirona.version}</version>
@@ -121,7 +121,7 @@
 			<artifactId>sirona-web</artifactId>
 			<version>${sirona.version}</version>
 		</dependency>
-
+ -->
 		<dependency>
 			<groupId>com.rps</groupId>
 			<artifactId>daoutil</artifactId>
@@ -216,6 +216,7 @@
 			<artifactId>commons-compress</artifactId>
 			<version>${commons-compress.version}</version>
 		</dependency>
+		
 		<dependency>
 			<groupId>commons-imaging</groupId>
 			<artifactId>commons-imaging</artifactId>
@@ -239,7 +240,7 @@
 		<!-- CACHE end -->
 
 		<!-- JSR303 BeanValidator -->
-		<dependency>
+		 <dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-validator</artifactId>
 			<version>${hibernate-validator.version}</version>
@@ -356,11 +357,11 @@
 			<version>${junit.version}</version>
 		</dependency>
 
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
 			<version>${spring.version}</version>
-		</dependency>
+		</dependency> -->
 
 		<dependency>
 			<groupId>joda-time</groupId>
@@ -375,6 +376,7 @@
 			<version>${jetty.version}</version>
 			<scope>provided</scope>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-jsp</artifactId>
