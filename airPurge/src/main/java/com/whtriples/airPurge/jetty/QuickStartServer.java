@@ -26,7 +26,6 @@ public class QuickStartServer {
             long time = System.currentTimeMillis() - startTime;
             System.out.println("Server startup in " + time + " ms, running at http://localhost:" + PORT + CONTEXT);
             System.out.println("Hit Enter to reload the application quickly");
-
             // 等待用户输入回车重载应用.
             while (true) {
                 char c = (char) System.in.read();
