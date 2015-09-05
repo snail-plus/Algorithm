@@ -61,20 +61,17 @@
    
    <div id="resultdWindow" class="mini-window" title="室内外数据对比" style="width: 850px; height: 400px;" showModal="false" allowResize="false" allowDrag="false">
 	 <div style="padding-bottom:5px;" class="form" id="recordForm">
-			   <span>开始时间:</span><input style="width: 120px;" class="mini-datepicker" nullValue="null" showOkButton="true" showClearButton="false"
+			   <span>时间:</span><input style="width: 120px;" class="mini-datepicker" nullValue="null" showOkButton="true" showClearButton="false"
                       format="yyyy-MM-dd" showTime=""false"" id="start_time2" required="true" ondrawdate="onDrawDate"/> 
-               <span>&nbsp;&nbsp;</span>
-			   <span>结束时间:</span>
-			   <input style="width: 120px;" class="mini-datepicker" nullValue="null" showOkButton="true" showClearButton="false"
-                      format="yyyy-MM-dd" showTime="false" id="end_time2" required="true" ondrawdate="onDrawDate"/> 
                <span>&nbsp;&nbsp;</span>
                <span>设备:</span>
 			   <input class="mini-combobox" style="width:100px;" id="serach_device" textField="text" valueField="id" url="${ctx}/device/history/getDevice" showNullItem="false" allowInput="false"/> <span>&nbsp;&nbsp;</span>
                <span>数据类型:</span>
 			   <input class="mini-combobox" style="width:100px;" id="search_dataType2" textField="text" valueField="id" url="${ctx}/device/history/dataType" showNullItem="false" allowInput="false"/> <span>&nbsp;&nbsp;</span>
-			   <input type="button" value="搜索" onclick="searchRecord()" />
+			    <a class="mini-button" iconCls="icon-search" onclick="searchRecord()">查询</a>
 			    <span>&nbsp;&nbsp;</span>
-			   <input type="button" value="重置" onclick="resetRecord()" />
+			    <a class="mini-button" iconCls="icon-reload" onclick="resetRecord()">重置</a>
+			   <!-- <input type="button" value="重置" onclick="resetRecord()" /> -->
      </div>
      <div id="wrapper1">
 	       <div id="chartDiv" style="width: 100%;height: 320px;"></div>
@@ -83,24 +80,20 @@
 	
    <div id="compWindow" class="mini-window" title="设备相关数据对比" style="width: 850px; height: 400px;" showModal="false" allowResize="false" allowDrag="false">
 	   <div style="padding-bottom:5px;" class="form" id="searchForm">
-			   <span>开始时间:</span><input style="width: 120px;" class="mini-datepicker" nullValue="null" showOkButton="true" showClearButton="false"
+			   <span>时间:</span><input style="width: 120px;" class="mini-datepicker" nullValue="null" showOkButton="true" showClearButton="false"
                       format="yyyy-MM-dd" showTime=""false"" id="startc" required="true" ondrawdate="onDrawDate" /> 
-               <span>&nbsp;&nbsp;</span>
-			   <span>结束时间:</span>
-			   <input style="width: 120px;" class="mini-datepicker" nullValue="null" showOkButton="true" showClearButton="false"
-                      format="yyyy-MM-dd" showTime="false" id="endc" required="true" ondrawdate="onDrawDate" /> 
                <span>&nbsp;&nbsp;</span>
                <span>设备：</span>
                 <input id="select1" class="mini-treeselect" url="${ctx}/device/history/listTree" multiSelect="true" 
 			        textField="text" valueField="id" parentField="pid" checkRecursive="true" 
 			        showFolderCheckBox="false"  expandOnLoad="true" showClose="true" oncloseclick="onCloseClick"
-			        popupWidth="200" 
+			        popupWidth="200"  required="true"
 			    />
 			    <span>数据类型:</span>
-			    <input class="mini-combobox" style="width:100px;" id="search_dataType" textField="text" valueField="id" url="${ctx}/device/history/dataType" showNullItem="false" allowInput="false"/> <span>&nbsp;&nbsp;</span>
-			    
-			   <input type="button" value="搜索" onclick="searchComp()" />
-			   <input type="button" value="重置" onclick="resetComp()" />
+			    <input class="mini-combobox" style="width:100px;" id="search_dataType" textField="text" valueField="id" url="${ctx}/device/history/dataType" showNullItem="false" allowInput="false" required="true" /> <span>&nbsp;&nbsp;</span>
+			     <a class="mini-button" iconCls="icon-search" onclick="searchComp()">查询</a>
+			    <span>&nbsp;&nbsp;</span>
+			    <a class="mini-button" iconCls="icon-reload" onclick="resetComp()">重置</a>
         </div>
         <div id="wrapper2">
 	        <div id="compDiv" style="width: 100%;height: 320px;"></div>
@@ -281,10 +274,9 @@
 		recordForm.validate();
 		if(recordForm.isValid() == true){
 		var start_time=mini.get("start_time2").getFormValue();
-		var end_time=mini.get("end_time2").getFormValue();
 		var dataType = mini.get("search_dataType2").getFormValue();
 		var device_id = mini.get("serach_device").getFormValue();
-			$.post("${ctx}/device/history/consmeRes/",{device_id:device_id,type:dataType},function(data){
+			$.post("${ctx}/device/history/consmeRes/",{startTime:start_time,device_id:device_id,type:dataType},function(data){
     			if(data.seriesData.length > 0){
     				showChart(data);
     				resultdWindow.show();
@@ -296,12 +288,13 @@
 	}
 	
 	function searchComp(){
+		searchForm.validate();
 		var obj = mini.get("select1");
-		if(recordForm.isValid() == true){
-		//var start_time=mini.get("start_time2").getFormValue();
+		if(searchForm.isValid() == true){
+		var start_time=mini.get("startc").getFormValue();
 		//var end_time=mini.get("end_time2").getFormValue();
 		var dataType = mini.get("search_dataType").getFormValue();
-			$.post("${ctx}/device/history/compareDeviceData/",{device_guids:obj.getValue(),type:dataType},function(data){
+			$.post("${ctx}/device/history/compareDeviceData/",{startTime:start_time,device_guids:obj.getValue(),type:dataType},function(data){
     			if(data.seriesData.length > 0){
     				showChart2(data);
     				compWindow.show();
@@ -312,8 +305,16 @@
 		}
 	}
 	
+	function resetRecord(){
+		recordForm.clear();
+		  $("#wrapper1").css("display","none"); 
+	}
+   
+	function resetComp(){
+		searchForm.clear();
+		  $("#wrapper2").css("display","none"); 
+	}
 	
-
 </script>
 </body>
 </html>
