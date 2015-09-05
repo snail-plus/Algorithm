@@ -6,7 +6,8 @@
 
  (defsql getPageLog
   {
-   :sql "select l.*,u.user_name from t_d_log l left join t_p_user u on l.user_id=u.user_id"
+   :sql "select d.remarks,l.*,u.user_name from t_d_log l left join t_p_user u on l.user_id=u.user_id
+         left join t_d_device d on l.Device_GUID=d.Device_GUID"
    :where (AND 
 		   ("startDate"  "l.record_time >= ?")
 		   ("endDate"  "l.record_time <= ?")
