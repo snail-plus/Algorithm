@@ -51,7 +51,6 @@
         </div>
 	     
         <div class="change">
-            <p id= "menue" hidden><shiro:principal property="menuData"/></p>
             <a href="javascript:changePwd()"><img width="15" height="15" src="${img}/key.png"/>修改密码 </a>
             <a href="javascript:logout();"><img src="${img}/exit.png"/>退出</a>
         </div>
