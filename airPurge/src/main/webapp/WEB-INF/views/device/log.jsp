@@ -44,8 +44,9 @@
     <div id="logDategrid" class="mini-datagrid" style="width:100%;height:100%;" allowResize="true"
          url="${ctx}/device/log/list" idField="user_id" multiSelect="true">
         <div property="columns">
-            <div field="user_name" width="120" headerAlign="center" allowSort="true">真实姓名</div>
-            <div field="device_guid" width="120" headerAlign="center" allowSort="true">设备号</div>
+            <div field="user_name" width="60" headerAlign="center" allowSort="true">真实姓名</div>
+            <div field="device_guid" width="180" headerAlign="center" allowSort="true">设备号</div>
+            <div field="remarks" width="120" headerAlign="center" allowSort="true">设备名称</div>
             <div field="record_time" width="120" headerAlign="center" allowSort="true" dateFormat="yyyy-MM-dd HH:mm:ss" >时间</div>
             <div field="operation" width="120" headerAlign="center" allowSort="true">操作</div>
             </div>
