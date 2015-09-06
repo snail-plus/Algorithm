@@ -41,7 +41,8 @@ public class DeviceDataController {
 	@SuppressWarnings("unchecked")
 	@ResponseBody
 	@RequestMapping(value = "list")
-	public PageModel list(HttpServletRequest request) {
+	public PageModel list(HttpServletRequest request) throws Exception {
+		
 		System.out.println(request.getParameter("org_id"));
 		PageModel pageModel = PageUtil.getPageModel(Device.class, "sql.data/getPageData", request);
 		List<Device> devices = (List<Device>) pageModel.getData();
@@ -49,6 +50,7 @@ public class DeviceDataController {
 		for(Device device : devices){
 			 parseObject = JSONObject.parseObject((CacheMap.cacheData.get(device.getDevice_guid())));
 			 if(parseObject != null){
+				
 				 device.setHum(parseObject.get("hum").toString());
 				 device.setGear(parseObject.get("gear").toString());
 				 device.setTemp(parseObject.get("temp").toString());
@@ -64,6 +66,7 @@ public class DeviceDataController {
 				 device.setRun_state("暂无数据");
 			 }
 		}
+		
 		return pageModel;
 	}
 	
