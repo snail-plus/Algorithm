@@ -40,7 +40,7 @@ public boolean editPrivate(String device_authority,String user_id,String device_
 	try {
 		DeviceUser user = new DeviceUser();
 		user.setUser_id(Integer.parseInt(user_id));
-		user.setDevice_authority(Integer.parseInt(device_authority.equals("0")==true?"1":"0"));
+		user.setDevice_authority(Integer.parseInt(device_authority));
 		user.setDevice_id(Integer.parseInt(device_id));
 		D.updateWithoutNull(user);
 		return true;

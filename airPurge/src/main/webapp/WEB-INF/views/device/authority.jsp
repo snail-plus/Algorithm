@@ -35,7 +35,8 @@
     <table style="width:100%;">
         <tr>
             <td style="width:100%;">
-                <a class="mini-button" iconCls="icon-edit" onclick="editPrivate()">用户权限</a>
+                <a class="mini-button" iconCls="icon-edit" onclick="editPrivate()">授予权限</a>
+                <a class="mini-button" iconCls="icon-edit" onclick="editPrivate2()">解除权限</a>
             </td>
         </tr>
     </table>
@@ -93,8 +94,9 @@
     function editPrivate(){
     	var row = grid.getSelected();
         if (row) {
+        	if(row.device_authority == '0'){
         		var url = "${ctx}/device/authority/editPrivate/";
-                $.post(url, {'device_authority': row.device_authority,"user_id":row.user_id,"device_id":row.device_id}, function (data) {
+                $.post(url, {'device_authority': 1,"user_id":row.user_id,"device_id":row.device_id}, function (data) {
                     if (data) {
                         notify("操作成功");
                     } else {
@@ -102,6 +104,31 @@
                     }
                     grid.reload();
                 });
+        	}else{
+           	  mini.alert("该用户已经有该设备的操作权限", "提示", function callback(action){return;});
+        	}
+        }else{
+         	  mini.alert("请选择一条记录", "提示", function callback(action){return;});
+        }
+    	
+    }
+    
+    function editPrivate2(){
+    	var row = grid.getSelected();
+        if (row) {
+        	if(row.device_authority == '1'){
+        		var url = "${ctx}/device/authority/editPrivate/";
+                $.post(url, {"device_authority": 0,"user_id":row.user_id,"device_id":row.device_id}, function (data) {
+                    if (data) {
+                        notify("操作成功");
+                    } else {
+                        notify("操作失败");
+                    }
+                    grid.reload();
+                });
+        	}else{
+           	  mini.alert("该用户已经没有此设备的操作权限", "提示", function callback(action){return;});
+        	}
         }else{
          	  mini.alert("请选择一条记录", "提示", function callback(action){return;});
         }
