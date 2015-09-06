@@ -74,9 +74,8 @@ html,body {
 	
 	var grid = mini.get("communityDategrid");
 	grid.load();
-	/* setInterval("grid.reload()",5000); */
+	setInterval("grid.reload()",5000);
 	var showDeviceWindow = mini.get("showDeviceWindow");
-	
 	
 	function showDeviceData(e){
    	 var row = grid.getSelected();
