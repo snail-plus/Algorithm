@@ -11,8 +11,8 @@
 				LEFT JOIN t_d_org_device od ON d.device_id = od.device_id"
    :where (AND 
 		   ("remarks"  "d.remarks like ?" "%" "%")
-       ("device_guid" "device_guid = ? ")
-       ("org_id " "od.org_id = ?")
+       ("device_guid" "d.device_guid = ? ")
+       ("org_id" "od.org_id = ?")
        "device_level = 3" 
 	)
    :page true

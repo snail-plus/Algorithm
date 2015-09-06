@@ -42,6 +42,7 @@ public class DeviceDataController {
 	@ResponseBody
 	@RequestMapping(value = "list")
 	public PageModel list(HttpServletRequest request) {
+		System.out.println(request.getParameter("org_id"));
 		PageModel pageModel = PageUtil.getPageModel(Device.class, "sql.data/getPageData", request);
 		List<Device> devices = (List<Device>) pageModel.getData();
 		JSONObject parseObject = null;
@@ -82,7 +83,7 @@ public class DeviceDataController {
 	@SuppressWarnings("unchecked")
 	public static List<TreeNode> getOrgList(){
 	   List<TreeNode> infoTypeList =D.sql(
-			   "select org_id as 'id', org_name as 'text', par_id as 'parent_code' "
+			   "select org_id as 'id', org_name as 'text', par_id as 'parent_code' ,org_level as 'tree_level' "
 						+ "from t_d_org where org_status = '1'"
 						+ " order by org_id asc").many(TreeNode.class);
 	   
@@ -90,7 +91,7 @@ public class DeviceDataController {
 	   Map<String,TreeNode> map = Collections3.extractToMap(infoTypeList, "id", null);
 	   for(TreeNode infoType:infoTypeList){
 		   String parent_id=infoType.getParent_code();
-		   if("1".equals(infoType.getId())){
+		   if("1".equals(infoType.getTree_level())){
 			   rootList.add(infoType);
 		   }else{
 			   	TreeNode parentInfoType = map.get(parent_id);

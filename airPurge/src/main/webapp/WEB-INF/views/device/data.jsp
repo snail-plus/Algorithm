@@ -74,7 +74,7 @@ html,body {
 	
 	var grid = mini.get("communityDategrid");
 	grid.load();
-	setInterval("grid.reload()",5000);
+	/* setInterval("grid.reload()",5000); */
 	var showDeviceWindow = mini.get("showDeviceWindow");
 	
 	
@@ -146,7 +146,7 @@ html,body {
    		 $("#remarks").val('');
     	 $("#device_guid").val('');
     	 grid.load({
-           	"org_code":org_code
+    		 "org_id":org_id
          });
     } 
     

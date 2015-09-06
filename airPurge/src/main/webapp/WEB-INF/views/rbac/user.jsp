@@ -46,8 +46,8 @@
             <div field="user_type" width="120" renderer="onTypeRenderer" headerAlign="center" allowSort="true">用户类型</div>
             <div field="user_status" width="120" renderer="onStatusRenderer" headerAlign="center" allowSort="true">是否有效
             </div>
-            <div field="device_authority" width="120" renderer="onStatusRenderer2" headerAlign="center" allowSort="true">是否有操作权限
-            </div>
+           <!--  <div field="device_authority" width="120" renderer="onStatusRenderer2" headerAlign="center" allowSort="true">是否有操作权限
+            </div> -->
         </div>
     </div>
 </div>
