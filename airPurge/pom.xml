@@ -34,7 +34,7 @@
 		<mysql.version>5.1.34</mysql.version>
 		<dom4j.version>1.6.1</dom4j.version>
 		<jaxen.version>1.1.6</jaxen.version>
-		<poi.version>3.11</poi.version>
+		<poi.version>4.1.2</poi.version>
 		<fileupload.version>1.3.1</fileupload.version>
 		<clojure.version>1.6.0</clojure.version>
 		<zxing.version>3.1.0</zxing.version>
