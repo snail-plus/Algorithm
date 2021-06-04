@@ -27,7 +27,7 @@
 		<guava.version>18.0</guava.version>
 		<joda-time.version>2.6</joda-time.version>
 		<dozer.version>5.5.1</dozer.version>
-		<httpclient.version>4.3.6</httpclient.version>
+		<httpclient.version>4.5.13</httpclient.version>
 		<junit.version>4.12</junit.version>
 		<jetty.version>9.2.6.v20141205</jetty.version>
 		<druid.version>1.0.13</druid.version>
