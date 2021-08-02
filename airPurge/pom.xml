@@ -21,7 +21,7 @@
 		<commons-lang3.version>3.3.2</commons-lang3.version>
 		<commons-io.version>2.4</commons-io.version>
 		<commons-codec.version>1.10</commons-codec.version>
-		<commons-compress.version>1.9</commons-compress.version>
+		<commons-compress.version>1.21</commons-compress.version>
 		<commons-email.version>1.3.3</commons-email.version>
 		<commons-imaging.version>1.0</commons-imaging.version>
 		<guava.version>18.0</guava.version>
