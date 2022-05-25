@@ -10,7 +10,7 @@
 
 	<properties>
 		<sirona.version>0.1-incubating</sirona.version>
-		<spring.version>4.1.4.RELEASE</spring.version>
+		<spring.version>5.2.22.RELEASE</spring.version>
 		<shiro.version>1.2.3</shiro.version>
 		<ehcache.version>2.6.10</ehcache.version>
 		<jedis.version>2.6.2</jedis.version>
